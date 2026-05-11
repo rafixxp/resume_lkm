@@ -16,21 +16,6 @@
     </div>
   </div>
 </section>
-
-<footer class="bg-white border-t mt-60 border-slate-100 px-4 md:px-8 lg:px-16 py-8">
-  <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-    <div class="flex items-center gap-2">
-      <svg width="28" height="18" viewBox="0 0 32 20" fill="none"><circle cx="7" cy="10" r="7" fill="#2563EB"/><circle cx="16" cy="10" r="7" fill="#60A5FA" fill-opacity=".7"/><circle cx="25" cy="10" r="7" fill="#93C5FD" fill-opacity=".5"/></svg>
-      <span class="logo-text font-bold text-slate-800">Portfolio</span>
-    </div>
-    <p class="text-xs text-slate-400">© 2024 Your Name. All rights reserved.</p>
-    <div class="flex gap-4 text-xs text-slate-500">
-      <a href="#" class="hover:text-blue-600 transition-colors">Privacy</a>
-      <a href="#" class="hover:text-blue-600 transition-colors">Terms</a>
-      <a href="#" class="hover:text-blue-600 transition-colors">Contact</a>
-    </div>
-  </div>
-</footer>
 </template>
 
 <style scoped>

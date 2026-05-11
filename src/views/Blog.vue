@@ -1,12 +1,21 @@
+<script setup>
+import { useRouter } from 'vue-router';
+const router = useRouter();
+
+const pageOn = (slug) => {
+  router.push(`/blog/${slug}`);
+}
+</script>
+
 <template>
 <section class="hero-section px-4 md:px-8 lg:px-16 pt-16 pb-14 text-center">
   <div class="max-w-2xl mx-auto">
     <span class="fade-up inline-block text-xs font-semibold tracking-widest text-blue-600 uppercase border border-blue-200 bg-blue-50 px-4 py-1 rounded-full mb-5">Blog</span>
     <h1 class="fade-up delay-1 text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 leading-tight mb-4">
-      Discover our latest news
+      Temukan Materi Kepemimpinan Disini
     </h1>
     <p class="fade-up delay-2 text-slate-500 text-base sm:text-lg leading-relaxed mb-8">
-      Discover the achievements that set us apart. From groundbreaking projects to industry accolades, we take pride in our accomplishments.
+      Temukan berbagai materi kepemimpinan yang bisa kamu jadikan referensi untuk mengembangkan diri dan memimpin dengan lebih baik.
     </p>
  
     <div class="fade-up delay-3 flex items-center gap-3 max-w-lg mx-auto">
@@ -14,11 +23,8 @@
         <svg class="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z"/>
         </svg>
-        <input type="text" placeholder="Search articles..." class="search-bar" />
+        <input type="text" placeholder="Cari Materi.." class="search-bar" />
       </div>
-      <button class="shrink-0 bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold px-6 py-3 rounded-full transition-colors shadow-sm shadow-blue-200">
-        Find Now
-      </button>
     </div>
   </div>
 </section>
@@ -31,102 +37,95 @@
       <div class="min-w-0">
  
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-5">
- 
-          <!-- Card 1 -->
-          <div class="col-span-1">
+
+          <div class="col-span-1" @click="pageOn('analisa-organisasi' )">
             <div class="card-img-wrap">
-              <img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?w=600&q=80" alt="Travel" />
+              <img src="https://cdn.slidesharecdn.com/ss_thumbnails/abu-abuputihsederhanaseminarproposalppt202512270824480000-260207093741-f62bc6f2-thumbnail.jpg?width=640&height=640&fit=bounds" alt="Travel" />
               <div class="card-gradient"></div>
               <div class="card-content">
-                <span class="badge">Health & Nutrition</span>
-                <h3 class="text-white font-bold text-base leading-snug mb-2">Wanderlust Unleashed: Top Hidden Gems You Must Visit This Year</h3>
-                <p class="text-white/75 text-xs leading-relaxed line-clamp-2">Discover unique, off-the-radar destinations around the world that offer breathtaking scenery and unforgettable experiences.</p>
+                <h3 class="text-white font-bold text-base leading-snug mb-2">Analisa Organisasi</h3>
+                <p class="text-white/75 text-xs leading-relaxed line-clamp-2">Manajemen aksi adalah suatu model yang menyatakan sikap, penyuaraan pendapat, opini atau tuntutan yang dilakukan</p>
               </div>
             </div>
           </div>
- 
-          <!-- Card 2 -->
-          <div class="col-span-1">
+          <div class="col-span-1" @click="pageOn('analisis-pengembangan-masyarakat' )">
             <div class="card-img-wrap">
-              <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80" alt="Adventure" />
+              <img src="https://cdn.slidesharecdn.com/ss_thumbnails/abu-abuputihsederhanaseminarproposalppt202512270824480000-260207093741-f62bc6f2-thumbnail.jpg?width=640&height=640&fit=bounds" alt="Travel" />
               <div class="card-gradient"></div>
               <div class="card-content">
-                <span class="badge">Sustainability</span>
-                <h3 class="text-white font-bold text-base leading-snug mb-2">Travel Bucket List: 25 Destinations for Every Adventurer</h3>
-                <p class="text-white/75 text-xs leading-relaxed line-clamp-2">Explore a curated list of must-visit places for every kind of traveler, whether you love mountains, beaches, or cultural landmarks.</p>
+                <h3 class="text-white font-bold text-base leading-snug mb-2">Analisis Pengembangan Masyarakat</h3>
+                <p class="text-white/75 text-xs leading-relaxed line-clamp-2">Manajemen aksi adalah suatu model yang menyatakan sikap, penyuaraan pendapat, opini atau tuntutan yang dilakukan</p>
               </div>
             </div>
           </div>
- 
-          <!-- Card 3 -->
-          <div class="col-span-1 sm:col-span-2 lg:col-span-1">
+          <div class="col-span-1" @click="pageOn('dinamika-sosial' )">
             <div class="card-img-wrap">
-              <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=600&q=80" alt="Local Tips" />
+              <img src="https://cdn.slidesharecdn.com/ss_thumbnails/abu-abuputihsederhanaseminarproposalppt202512270824480000-260207093741-f62bc6f2-thumbnail.jpg?width=640&height=640&fit=bounds" alt="Travel" />
               <div class="card-gradient"></div>
               <div class="card-content">
-                <span class="badge">Cultural Insights</span>
-                <h3 class="text-white font-bold text-base leading-snug mb-2">How to Travel Like a Local: Insider Tips for Authentic Experiences</h3>
-                <p class="text-white/75 text-xs leading-relaxed line-clamp-2">Learn how to immerse yourself in the culture of each place you visit by following these insider tips.</p>
+                <h3 class="text-white font-bold text-base leading-snug mb-2">Dinamika Sosial</h3>
+                <p class="text-white/75 text-xs leading-relaxed line-clamp-2">Manajemen aksi adalah suatu model yang menyatakan sikap, penyuaraan pendapat, opini atau tuntutan yang dilakukan</p>
               </div>
             </div>
           </div>
+          <div class="col-span-1" @click="pageOn('kekeluargaan' )">
+            <div class="card-img-wrap">
+              <img src="https://cdn.slidesharecdn.com/ss_thumbnails/abu-abuputihsederhanaseminarproposalppt202512270824480000-260207093741-f62bc6f2-thumbnail.jpg?width=640&height=640&fit=bounds" alt="Travel" />
+              <div class="card-gradient"></div>
+              <div class="card-content">
+                <h3 class="text-white font-bold text-base leading-snug mb-2">Kekeluargaan</h3>
+                <p class="text-white/75 text-xs leading-relaxed line-clamp-2">Manajemen aksi adalah suatu model yang menyatakan sikap, penyuaraan pendapat, opini atau tuntutan yang dilakukan</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-span-1" @click="pageOn('otoritas-informasi' )">
+            <div class="card-img-wrap">
+              <img src="https://cdn.slidesharecdn.com/ss_thumbnails/abu-abuputihsederhanaseminarproposalppt202512270824480000-260207093741-f62bc6f2-thumbnail.jpg?width=640&height=640&fit=bounds" alt="Travel" />
+              <div class="card-gradient"></div>
+              <div class="card-content">
+                <h3 class="text-white font-bold text-base leading-snug mb-2">Otoritas Informasi</h3>
+                <p class="text-white/75 text-xs leading-relaxed line-clamp-2">Manajemen aksi adalah suatu model yang menyatakan sikap, penyuaraan pendapat, opini atau tuntutan yang dilakukan</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-span-1" @click="pageOn('pengembangan-pembangunan-organisasi' )">
+            <div class="card-img-wrap">
+              <img src="https://cdn.slidesharecdn.com/ss_thumbnails/abu-abuputihsederhanaseminarproposalppt202512270824480000-260207093741-f62bc6f2-thumbnail.jpg?width=640&height=640&fit=bounds" alt="Travel" />
+              <div class="card-gradient"></div>
+              <div class="card-content">
+                <h3 class="text-white font-bold text-base leading-snug mb-2">Pengembangan dan Pembangunan Or</h3>
+                <p class="text-white/75 text-xs leading-relaxed line-clamp-2">Manajemen aksi adalah suatu model yang menyatakan sikap, penyuaraan pendapat, opini atau tuntutan yang dilakukan</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-span-1" @click="pageOn('retorika' )">
+            <div class="card-img-wrap">
+              <img src="https://cdn.slidesharecdn.com/ss_thumbnails/abu-abuputihsederhanaseminarproposalppt202512270824480000-260207093741-f62bc6f2-thumbnail.jpg?width=640&height=640&fit=bounds" alt="Travel" />
+              <div class="card-gradient"></div>
+              <div class="card-content">
+                <h3 class="text-white font-bold text-base leading-snug mb-2">Retorika</h3>
+                <p class="text-white/75 text-xs leading-relaxed line-clamp-2">Manajemen aksi adalah suatu model yang menyatakan sikap, penyuaraan pendapat, opini atau tuntutan yang dilakukan</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-span-1" @click="pageOn('manajemen-aksi' )">
+            <div class="card-img-wrap">
+              <img src="https://cdn.slidesharecdn.com/ss_thumbnails/abu-abuputihsederhanaseminarproposalppt202512270824480000-260207093741-f62bc6f2-thumbnail.jpg?width=640&height=640&fit=bounds" alt="Travel" />
+              <div class="card-gradient"></div>
+              <div class="card-content">
+                <h3 class="text-white font-bold text-base leading-snug mb-2">Manajemen Aksi</h3>
+                <p class="text-white/75 text-xs leading-relaxed line-clamp-2">Manajemen aksi adalah suatu model yang menyatakan sikap, penyuaraan pendapat, opini atau tuntutan yang dilakukan</p>
+              </div>
+            </div>
+          </div>
+
         </div>
- 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          <div class="col-span-1">
-            <div class="card-img-wrap">
-              <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80" alt="Mountains" />
-              <div class="card-gradient"></div>
-              <div class="card-content">
-                <span class="badge">Adventure</span>
-                <h3 class="text-white font-bold text-base leading-snug">The Ultimate Guide to Mountain Trekking</h3>
-              </div>
-            </div>
-          </div>
- 
-          <div class="col-span-1">
-            <div class="card-img-wrap">
-              <img src="https://images.unsplash.com/photo-1471922694854-ff1b63b20054?w=600&q=80" alt="Beach" />
-              <div class="card-gradient"></div>
-              <div class="card-content">
-                <span class="badge">Lifestyle</span>
-                <h3 class="text-white font-bold text-base leading-snug">Best Beaches in Southeast Asia to Visit</h3>
-              </div>
-            </div>
-          </div>
- 
-          <div class="col-span-1 sm:col-span-2 lg:col-span-1">
-            <div class="card-img-wrap">
-              <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=600&q=80" alt="Forest" />
-              <div class="card-gradient"></div>
-              <div class="card-content">
-                <span class="badge">Eco Travel</span>
-                <h3 class="text-white font-bold text-base leading-snug">Exploring the World's Most Breathtaking Forests</h3>
-              </div>
-            </div>
-          </div>
-        </div>
- 
-        <a href="#" class="sm:hidden mt-5 block text-center text-sm text-blue-600 font-semibold py-3 border border-blue-200 rounded-full">View all articles →</a>
+
       </div>
     </div>
   </div>
 </main>
- 
-<footer class="bg-white border-t border-slate-100 px-4 md:px-8 lg:px-16 py-8">
-  <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-    <div class="flex items-center gap-2">
-      <svg width="28" height="18" viewBox="0 0 32 20" fill="none"><circle cx="7" cy="10" r="7" fill="#2563EB"/><circle cx="16" cy="10" r="7" fill="#60A5FA" fill-opacity=".7"/><circle cx="25" cy="10" r="7" fill="#93C5FD" fill-opacity=".5"/></svg>
-      <span class="logo-text font-bold text-slate-800">enjooy</span>
-    </div>
-    <p class="text-xs text-slate-400">© 2024 Enjooy. All rights reserved.</p>
-    <div class="flex gap-4 text-xs text-slate-500">
-      <a href="#" class="hover:text-blue-600 transition-colors">Privacy</a>
-      <a href="#" class="hover:text-blue-600 transition-colors">Terms</a>
-      <a href="#" class="hover:text-blue-600 transition-colors">Sitemap</a>
-    </div>
-  </div>
-</footer>
+
 </template>
 
 <style scoped>
