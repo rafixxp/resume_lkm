@@ -5,7 +5,7 @@
     <!-- Untuk mengganti gambarnya, silakan ganti isi dari atribut src nya dengan link gambar dari website -->
     <div class="mb-8">
         <img 
-        src="https://cdn.slidesharecdn.com/ss_thumbnails/abu-abuputihsederhanaseminarproposalppt202512270824480000-260207093741-f62bc6f2-thumbnail.jpg?width=640&height=640&fit=bounds" 
+        src="https://harrisonassessments.id/wp-content/uploads/2023/09/image2-1-1024x678.jpg" 
         alt="Wanderlust Unleashed: Top Hidden Gems You Must Visit This Year"
         class="w-full h-64 md:h-96 object-cover rounded-2xl"
         />
@@ -14,7 +14,7 @@
     <div class="text-center">
         <!-- Untuk mengganti judul, cukup ganti isi "Manajemen Aksi" dengan judul yang anda akan tulis-->
         <h1 class="fade-up delay-1 text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 leading-tight mb-6">
-            Manajemen Aksi
+            Analisa Organisasi
         </h1>
         
         <div class="fade-up delay-2 flex flex-col sm:flex-row items-center justify-center gap-4 text-slate-500 ">
@@ -51,15 +51,14 @@
 
                     <!-- isikan materinya disini, untuk membuat paragraf anda perlu menulis tag <p></p> untuk membuat paragraf baru. -->
                     <p class="text-slate-600 leading-relaxed mb-4">
-                        Manajemen aksi adalah suatu model yang menyatakan sikap, penyuaraan pendapat, opini atau tuntutan yang dilakukan dengan jumlah masa tertentu dan dengan teknik tertentu agar mendapatkan perhatian dari pihak yang ditujui tanpa menggunakan mekanisme konvensional atau birokrasi.
-                        
-                        <br><br>Landasan hukum => UU No.9/1998 tentang mekanisme penyampaian pendapat di muka umum yang terdiri dari :
+                        Lorem ipsum dolor sit amet
                     </p>
 
                     <!-- untuk membuat order list 1,2,3 dst, salin tag ini lalu ganti isinya sesuai dengan materi -->
                     <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
-                        <li>Dilarang membawa benda yang membahayakan keselamatan</li>
-                        <li>Menyampaikan laporan/pemberitahuan tertulis kepada pihak kepolisian</li>
+                        <li>DILARANG MEMBAWA SENTAJA TAJAM</li>
+                        <li>DILARANG MELAKUKAN INTIMIDASI</li>
+                        <li>DILARANG MEROKOK !</li>
                     </ol>
                 </section>
 
