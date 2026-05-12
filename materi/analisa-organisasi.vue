@@ -25,7 +25,7 @@
 
                 <!-- Tuliskan nama pematerinya disini -->
                 <span class="text-sm">
-                    Defri Crisna Pramudi
+                    Ikmal Riza
                 </span>
 
             </div>
@@ -51,7 +51,7 @@
 
                     <!-- isikan materinya disini, untuk membuat paragraf anda perlu menulis tag <p></p> untuk membuat paragraf baru. -->
                     <p class="text-slate-600 leading-relaxed mb-4">
-                        Lorem ipsum dolor sit amet
+                        Ini adalah paragraf dari materi yang dipaparkan oleh a Ikmal Riza
                     </p>
 
                     <!-- untuk membuat order list 1,2,3 dst, salin tag ini lalu ganti isinya sesuai dengan materi -->
