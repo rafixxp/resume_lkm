@@ -3,14 +3,18 @@ import { useRouter } from 'vue-router';
 const router = useRouter();
 
 const pageOn = (slug) => {
-  router.push(`/blog/${slug}`);
+  router.push(`/materi/${slug}`);
+}
+
+const search = () => {
+  
 }
 </script>
 
 <template>
-<section class="hero-section px-4 md:px-8 lg:px-16 pt-16 pb-14 text-center">
+<section class="hero-section px-4 md:px-8 lg:px-16 pt-30 pb-22 text-center">
   <div class="max-w-2xl mx-auto">
-    <span class="fade-up inline-block text-xs font-semibold tracking-widest text-blue-600 uppercase border border-blue-200 bg-blue-50 px-4 py-1 rounded-full mb-5">Blog</span>
+    <span class="fade-up inline-block text-xs font-semibold tracking-widest text-blue-600 uppercase border border-blue-200 bg-blue-50 px-4 py-1 rounded-full mb-5">Materi</span>
     <h1 class="fade-up delay-1 text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 leading-tight mb-4">
       Temukan Materi Kepemimpinan Disini
     </h1>
@@ -18,14 +22,14 @@ const pageOn = (slug) => {
       Temukan berbagai materi kepemimpinan yang bisa kamu jadikan referensi untuk mengembangkan diri dan memimpin dengan lebih baik.
     </p>
  
-    <div class="fade-up delay-3 flex items-center gap-3 max-w-lg mx-auto">
+    <!-- <div class="fade-up delay-3 flex items-center gap-3 max-w-lg mx-auto">
       <div class="relative flex-1">
         <svg class="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z"/>
         </svg>
-        <input type="text" placeholder="Cari Materi.." class="search-bar" />
+        <input type="text" placeholder="Cari Materi.." class="search-bar" @change="search()">
       </div>
-    </div>
+    </div> -->
   </div>
 </section>
  
@@ -90,10 +94,10 @@ const pageOn = (slug) => {
           </div>
           <div class="col-span-1" @click="pageOn('pengembangan-pembangunan-organisasi' )">
             <div class="card-img-wrap">
-              <img src="https://cdn.slidesharecdn.com/ss_thumbnails/abu-abuputihsederhanaseminarproposalppt202512270824480000-260207093741-f62bc6f2-thumbnail.jpg?width=640&height=640&fit=bounds" alt="Travel" />
+              <img src="https://gajihub.com/blog/wp-content/uploads/2022/11/pengembangan-organisasi-2.png" alt="Pengembangan dan Pembangunan Organisasi" />
               <div class="card-gradient"></div>
               <div class="card-content">
-                <h3 class="text-white font-bold text-base leading-snug mb-2">Pengembangan dan Pembangunan Or</h3>
+                <h3 class="text-white font-bold text-base leading-snug mb-2">Pengembangan dan Pembangunan Organisasi</h3>
                 <p class="text-white/75 text-xs leading-relaxed line-clamp-2">Manajemen aksi adalah suatu model yang menyatakan sikap, penyuaraan pendapat, opini atau tuntutan yang dilakukan</p>
               </div>
             </div>
