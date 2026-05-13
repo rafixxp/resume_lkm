@@ -1,69 +1,288 @@
 <template>
+  <div>
+
+    <!-- HERO -->
     <section class="hero-section px-4 md:px-8 lg:px-16 pt-16 pb-8">
-    <div class="max-w-4xl mx-auto">
-    
-    <!-- Untuk mengganti gambarnya, silakan ganti isi dari atribut src nya dengan link gambar dari website -->
-    <div class="mb-8">
-        <img 
-        src="https://cdn.slidesharecdn.com/ss_thumbnails/abu-abuputihsederhanaseminarproposalppt202512270824480000-260207093741-f62bc6f2-thumbnail.jpg?width=640&height=640&fit=bounds" 
-        alt="Wanderlust Unleashed: Top Hidden Gems You Must Visit This Year"
-        class="w-full h-64 md:h-96 object-cover rounded-2xl"
-        />
-    </div>
+      <div class="max-w-4xl mx-auto">
 
-    <div class="text-center">
-        <!-- Untuk mengganti judul, cukup ganti isi "Manajemen Aksi" dengan judul yang anda akan tulis-->
-        <h1 class="fade-up delay-1 text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 leading-tight mb-6">
-            Manajemen Aksi
-        </h1>
-        
-        <div class="fade-up delay-2 flex flex-col sm:flex-row items-center justify-center gap-4 text-slate-500 ">
-            <div class="flex items-center gap-2">
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
-                </svg>
-
-                <!-- Tuliskan nama pematerinya disini -->
-                <span class="text-sm">
-                    Defri Crisna Pramudi
-                </span>
-
-            </div>
-            <div class="flex items-center gap-2">
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
-                </svg>
-                <!-- Tuliskan tanggal pemateriannya disini -->
-                <span class="text-sm">
-                    Sabtu, 30 Maret 2026
-                </span>
-            </div>
+        <!-- IMAGE -->
+        <div class="mb-8">
+          <img
+            src="https://i.pinimg.com/1200x/de/a8/35/dea835a169e88c563cbc4a2774f09c06.jpg"
+            alt="Otoritas Informasi"
+            class="w-full h-64 md:h-96 object-cover rounded-2xl"
+          />
         </div>
-    </div>
-    </div>
+
+        <!-- TITLE -->
+        <div class="text-center">
+
+          <h1
+            class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 leading-tight mb-6"
+          >
+            Otoritas Informasi
+          </h1>
+
+          <div
+            class="flex flex-col sm:flex-row items-center justify-center gap-4 text-slate-500"
+          >
+
+            <!-- AUTHOR -->
+            <div class="flex items-center gap-2">
+              <span class="text-sm">
+                Ikmal Riza
+              </span>
+            </div>
+
+            <!-- DATE -->
+            <div class="flex items-center gap-2">
+              <span class="text-sm">
+                Sabtu, 2 Mei 2026
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- Article Content -->
+    <!-- CONTENT -->
     <main class="px-4 md:px-8 lg:px-16 pb-20">
-        <div class="max-w-4xl mx-auto">
-            <article class="prose prose-lg max-w-none">
-                <section class="mb-12">
+      <div class="max-w-4xl mx-auto">
 
-                    <!-- isikan materinya disini, untuk membuat paragraf anda perlu menulis tag <p></p> untuk membuat paragraf baru. -->
-                    <p class="text-slate-600 leading-relaxed mb-4">
-                        Manajemen aksi adalah suatu model yang menyatakan sikap, penyuaraan pendapat, opini atau tuntutan yang dilakukan dengan jumlah masa tertentu dan dengan teknik tertentu agar mendapatkan perhatian dari pihak yang ditujui tanpa menggunakan mekanisme konvensional atau birokrasi.
-                        
-                        <br><br>Landasan hukum => UU No.9/1998 tentang mekanisme penyampaian pendapat di muka umum yang terdiri dari :
-                    </p>
+        <article class="max-w-none">
 
-                    <!-- untuk membuat order list 1,2,3 dst, salin tag ini lalu ganti isinya sesuai dengan materi -->
-                    <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
-                        <li>Dilarang membawa benda yang membahayakan keselamatan</li>
-                        <li>Menyampaikan laporan/pemberitahuan tertulis kepada pihak kepolisian</li>
-                    </ol>
-                </section>
+          <section class="mb-10">
 
-            </article>
-        </div>
+            <!-- A -->
+            <h2 class="text-3xl font-bold text-slate-800 mb-4">
+              A. Pengertian Otoritas Informasi
+            </h2>
+
+            <p class="text-slate-600 leading-relaxed mb-6">
+              Otoritas informasi adalah sekelompok individu, baik dalam
+              pemerintahan maupun non-pemerintahan, yang memiliki wewenang
+              untuk mengatur dan mengendalikan akses terhadap informasi.
+            </p>
+
+            <!-- B -->
+            <h2 class="text-3xl font-bold text-slate-800 mb-4">
+              B. Definisi Strategis
+            </h2>
+
+            <p class="text-slate-600 leading-relaxed mb-6">
+              Kemampuan pemimpin dalam mengelola, mendistribusikan,
+              dan merahasiakan informasi untuk menjaga stabilitas
+              dan kedaulatan organisasi.
+            </p>
+
+            <!-- C -->
+            <h2 class="text-3xl font-bold text-slate-800 mb-4">
+              C. Paradigma Kekuasaan
+            </h2>
+
+            <p class="text-slate-600 leading-relaxed mb-6">
+              Paradigma kekuasaan adalah cara pandang mengenai bagaimana
+              kekuasaan digunakan untuk mengatur, mempengaruhi,
+              dan mengendalikan masyarakat.
+            </p>
+
+            <!-- D -->
+            <h2 class="text-3xl font-bold text-slate-800 mb-4">
+              D. Tiga Pilar Utama
+            </h2>
+
+            <ol class="list-decimal pl-6 text-slate-600 space-y-6 mb-10">
+
+              <li>
+                <strong>Struktur</strong>
+                <p>
+                  Membangun hierarki informasi.
+                </p>
+              </li>
+
+              <li>
+                <strong>Validasi</strong>
+                <p>
+                  Membangun alur verifikasi data.
+                </p>
+              </li>
+
+              <li>
+                <strong>Hak Akses</strong>
+                <p>
+                  Penerapan Role Based Access Control (RBAC).
+                </p>
+              </li>
+
+              <li>
+                <strong>Digital Sovereignty</strong>
+                <p>
+                  Mahasiswa Informatika adalah perancang sistem.
+                  Code is law (Kode adalah hukum).
+                </p>
+              </li>
+
+              <li>
+                <strong>Otoritas Tertinggi</strong>
+                <p>
+                  Keamanan informasi adalah tanggung jawab moral
+                  dan profesional para ahli IT.
+                </p>
+              </li>
+
+            </ol>
+
+            <!-- E -->
+            <h2 class="text-3xl font-bold text-slate-800 mb-4">
+              E. Krisis Sistemik 2026
+            </h2>
+
+            <ul class="list-disc pl-6 text-slate-600 space-y-3 mb-10">
+
+              <li>
+                58 juta data pendidikan bocor.
+              </li>
+
+              <li>
+                Kasus IGRS Komdigi (April 2026).
+              </li>
+
+              <li>
+                Celah keamanan sistem IGRS membocorkan aset
+                rahasia pengembangan game AAA di Indonesia.
+              </li>
+
+            </ul>
+
+            <!-- F -->
+            <h2 class="text-3xl font-bold text-slate-800 mb-6">
+              F. Klasifikasi Otoritas Akses
+            </h2>
+
+            <div class="overflow-x-auto">
+
+              <table class="w-full border border-slate-300 text-left">
+
+                <thead class="bg-slate-100">
+
+                  <tr>
+
+                    <th class="border px-4 py-3">
+                      Tingkat Akses
+                    </th>
+
+                    <th class="border px-4 py-3">
+                      Kategori Informasi
+                    </th>
+
+                    <th class="border px-4 py-3">
+                      Wewenang Pemimpin
+                    </th>
+
+                  </tr>
+
+                </thead>
+
+                <tbody>
+
+                  <tr>
+
+                    <td class="border px-4 py-3">
+                      Publik
+                    </td>
+
+                    <td class="border px-4 py-3">
+                      Profil, agenda, berita umum
+                    </td>
+
+                    <td class="border px-4 py-3">
+                      Transparansi & branding
+                    </td>
+
+                  </tr>
+
+                  <tr class="bg-slate-50">
+
+                    <td class="border px-4 py-3">
+                      Internal
+                    </td>
+
+                    <td class="border px-4 py-3">
+                      Draf keputusan & koordinasi
+                    </td>
+
+                    <td class="border px-4 py-3">
+                      Manajerial & taktis
+                    </td>
+
+                  </tr>
+
+                  <tr>
+
+                    <td class="border px-4 py-3">
+                      Rahasia
+                    </td>
+
+                    <td class="border px-4 py-3">
+                      Data kader & strategi
+                    </td>
+
+                    <td class="border px-4 py-3">
+                      Proteksi & integritas mutlak
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+
+            </div>
+
+            <!-- G -->
+            <h2 class="text-3xl font-bold text-slate-800 mt-10 mb-4">
+              G. Siklus Manajemen Otoritas
+            </h2>
+
+            <ol class="list-decimal pl-6 text-slate-600 space-y-6 mb-10">
+
+              <li>
+                <strong>Akuisisi</strong>
+                <p>
+                  Pengumpulan data yang akurat dan valid.
+                </p>
+              </li>
+
+              <li>
+                <strong>Klasifikasi</strong>
+                <p>
+                  Penentuan tingkat kerahasiaan data.
+                </p>
+              </li>
+
+              <li>
+                <strong>Distribusi</strong>
+                <p>
+                  Penyaluran informasi ke pemegang wewenang.
+                </p>
+              </li>
+
+              <li>
+                <strong>Proteksi</strong>
+                <p>
+                  Penjagaan integritas dari penghapusan data.
+                </p>
+              </li>
+
+            </ol>
+
+          </section>
+
+        </article>
+
+      </div>
     </main>
+
+  </div>
 </template>
