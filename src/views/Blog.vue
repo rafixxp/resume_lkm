@@ -64,7 +64,7 @@ const search = () => {
           </div>
           <div class="col-span-1" @click="pageOn('dinamika-sosial' )">
             <div class="card-img-wrap">
-              <img src="https://kalimahsawa.id/dialog-publik-rakyat-progresif-kupas-dinamika-politik-dan-stabilitas-sosial-di-era-politik-dinamis/" alt="Travel" />
+              <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_750,h_375/https://kalimahsawa.id/wp-content/uploads/2025/12/5c0b19e6-cda5-4708-9bb6-39ae85a05c35-1-750x375.jpg" alt="Travel" />
               <div class="card-gradient"></div>
               <div class="card-content">
                 <h3 class="text-white font-bold text-base leading-snug mb-2">Dinamika Sosial dan Politik</h3>
