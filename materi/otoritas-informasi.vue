@@ -181,7 +181,20 @@
                 </p>
               </div>
 
-              <div class="bg-slate-50 border border-slate-200 rounded-2xl p-5">
+            </div>
+
+          </section>
+
+          <!-- E -->
+          <section class="mb-12">
+
+            <h2 class="text-3xl font-bold text-slate-900 mb-6">
+              E. Arsitek Hukum
+            </h2>
+
+            <div class="grid gap-5">
+
+              <div class="bg-indigo-50 border border-indigo-200 rounded-2xl p-5">
                 <strong class="text-lg text-slate-800">
                   Digital Sovereignty
                 </strong>
@@ -192,7 +205,7 @@
                 </p>
               </div>
 
-              <div class="bg-slate-50 border border-slate-200 rounded-2xl p-5">
+              <div class="bg-indigo-50 border border-indigo-200 rounded-2xl p-5">
                 <strong class="text-lg text-slate-800">
                   Otoritas Tertinggi
                 </strong>
@@ -207,11 +220,11 @@
 
           </section>
 
-          <!-- E -->
+          <!-- F -->
           <section class="mb-12">
 
             <h2 class="text-3xl font-bold text-slate-900 mb-6">
-              E. Krisis Sistemik 2026
+              F. Krisis Sistemik 2026
             </h2>
 
             <div class="space-y-4">
@@ -239,11 +252,11 @@
 
           </section>
 
-          <!-- F -->
+          <!-- G -->
           <section class="mb-12">
 
             <h2 class="text-3xl font-bold text-slate-900 mb-6">
-              F. Klasifikasi Otoritas Akses
+              G. Klasifikasi Otoritas Akses
             </h2>
 
             <div class="overflow-x-auto rounded-2xl border border-slate-200">
@@ -328,11 +341,11 @@
 
           </section>
 
-          <!-- G -->
+          <!-- H -->
           <section>
 
             <h2 class="text-3xl font-bold text-slate-900 mb-6">
-              G. Siklus Manajemen Otoritas
+              H. Siklus Manajemen Otoritas
             </h2>
 
             <div class="grid gap-5">
