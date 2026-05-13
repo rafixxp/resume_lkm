@@ -66,8 +66,8 @@
 
                     <!-- untuk membuat order list 1,2,3 dst, salin tag ini lalu ganti isinya sesuai dengan materi -->
                     <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
-                        <li>Sikap yang benar : </li>
                         <li>Sikap yang salah : </li>
+                        <li>Sikap yang benar : </li>
                     </ol>
                 </section>
 
