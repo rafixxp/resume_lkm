@@ -64,10 +64,10 @@ const search = () => {
           </div>
           <div class="col-span-1" @click="pageOn('dinamika-sosial' )">
             <div class="card-img-wrap">
-              <img src="https://cdn.slidesharecdn.com/ss_thumbnails/abu-abuputihsederhanaseminarproposalppt202512270824480000-260207093741-f62bc6f2-thumbnail.jpg?width=640&height=640&fit=bounds" alt="Travel" />
+              <img src="https://kalimahsawa.id/dialog-publik-rakyat-progresif-kupas-dinamika-politik-dan-stabilitas-sosial-di-era-politik-dinamis/" alt="Travel" />
               <div class="card-gradient"></div>
               <div class="card-content">
-                <h3 class="text-white font-bold text-base leading-snug mb-2">Dinamika Sosial</h3>
+                <h3 class="text-white font-bold text-base leading-snug mb-2">Dinamika Sosial dan Politik</h3>
                 <p class="text-white/75 text-xs leading-relaxed line-clamp-2">Manajemen aksi adalah suatu model yang menyatakan sikap, penyuaraan pendapat, opini atau tuntutan yang dilakukan</p>
               </div>
             </div>
