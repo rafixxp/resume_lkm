@@ -25,7 +25,7 @@
 
                 <!-- Tuliskan nama pematerinya disini -->
                 <span class="text-sm">
-                    A Arul
+                    Arul Misbahul Khoer
                 </span>
 
             </div>
@@ -59,16 +59,25 @@
                         <br>Ideologi kanan mencakup kapitalisme dan liberalisme menekankan nasionalisme dan kebebasan individu.
                     </p>
                     <h2 class= "text-2xl font-bold text-slate-800 mb-3">
-                        B.Pengembangan Sikap Moderat dan Kritis
+                        B. Pengembangan Sikap Moderat dan Kritis
                     </h2>
                     <p>Moderat adalah pandangan atau perilaku untuk mengambil jalan tengah guna menghindari ekstremitas (kiri maupun kanan), serta mengutamakan keseimbangan, keadilan, dan toleransi.
                     <br>Kritis adalah sikap yang mengutamakan pertimbangan dan pemikiran yang matang sebelum mengambil suatu tindakan.</p>
 
                     <!-- untuk membuat order list 1,2,3 dst, salin tag ini lalu ganti isinya sesuai dengan materi -->
                     <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
-                        <li>Sikap yang salah : </li>
-                        <li>Sikap yang benar : </li>
+                        <li>Sikap yang salah : Terjebak dalam fanatisme buta (membela sesuatu secara berlebihan) dan ketidakmampuan dalam menganalisis masalah.</li>
+                        <li>Sikap yang benar : Mengedepankan cara berpikir objektif dan kemampuan melihat permasalahan dari dua sisi yang berbeda.</li>
                     </ol>
+                    <h2 class= "text-2xl font-bold text-slate-800 mb-3">
+                        C. Teknologi dan Peran Sosial Mahasiswa
+                    </h2>
+                    <p>Dinamika Teknologi : </p>
+                    <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
+                        <li>Dampak Positif: Efisiensi dalam mempersingkat waktu proses.</li>
+                        <li>Dampak Negatif: Risiko penyebaran informasi palsu atau Hoax.</li>
+                    </ol>
+                    <p>Peran mahasiswa dalam memberikan edukasi, dimulai dari lingkup terkecil yaitu keluarga, sebagai langkah minimal dalam menghadapi dampak teknologi.</p>
                 </section>
 
             </article>
