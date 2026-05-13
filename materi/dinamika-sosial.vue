@@ -56,13 +56,18 @@
                     <p class="text-slate-600 leading-relaxed mb-4">
                         Ideologi muncul karena paham ideologi Kiri dan Kanan yang berakar dari peristiwa Reformasi Prancis.
                         <br>Ideologi kiri mencakup komunis dan sosialis mengedepankan kesetaraan sosial, keadilan ekonomi, dan solidaritas untuk mengatasi ketimpangan.
-                        <br>Ideologi kanan mencakup kapitalisme dan liberalisme
+                        <br>Ideologi kanan mencakup kapitalisme dan liberalisme menekankan nasionalisme dan kebebasan individu.
                     </p>
+                    <h2 class= "text-2xl font-bold text-slate-800 mb-3">
+                        B.Pengembangan Sikap Moderat dan Kritis
+                    </h2>
+                    <p>Moderat adalah pandangan atau perilaku untuk mengambil jalan tengah guna menghindari ekstremitas (kiri maupun kanan), serta mengutamakan keseimbangan, keadilan, dan toleransi.
+                    <br>Kritis adalah sikap yang mengutamakan pertimbangan dan pemikiran yang matang sebelum mengambil suatu tindakan.</p>
 
                     <!-- untuk membuat order list 1,2,3 dst, salin tag ini lalu ganti isinya sesuai dengan materi -->
                     <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
-                        <li>Dilarang membawa benda yang membahayakan keselamatan</li>
-                        <li>Menyampaikan laporan/pemberitahuan tertulis kepada pihak kepolisian</li>
+                        <li>Sikap yang benar : </li>
+                        <li>Sikap yang salah : </li>
                     </ol>
                 </section>
 
