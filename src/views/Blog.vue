@@ -84,7 +84,7 @@ const search = () => {
           </div>
           <div class="col-span-1" @click="pageOn('otoritas-informasi' )">
             <div class="card-img-wrap">
-              <img src="https://cdn.slidesharecdn.com/ss_thumbnails/abu-abuputihsederhanaseminarproposalppt202512270824480000-260207093741-f62bc6f2-thumbnail.jpg?width=640&height=640&fit=bounds" alt="Travel" />
+              <img src="https://i.pinimg.com/1200x/de/a8/35/dea835a169e88c563cbc4a2774f09c06.jpg" alt="Travel" />
               <div class="card-gradient"></div>
               <div class="card-content">
                 <h3 class="text-white font-bold text-base leading-snug mb-2">Otoritas Informasi</h3>
