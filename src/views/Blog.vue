@@ -74,11 +74,11 @@ const search = () => {
           </div>
           <div class="col-span-1" @click="pageOn('kekeluargaan' )">
             <div class="card-img-wrap">
-              <img src="https://cdn.slidesharecdn.com/ss_thumbnails/abu-abuputihsederhanaseminarproposalppt202512270824480000-260207093741-f62bc6f2-thumbnail.jpg?width=640&height=640&fit=bounds" alt="Travel" />
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj541kQxIxQlDOrUVv8rdxCZp8DNtyxcBDMufkCfvQ4JqtEecx-rspGK81gr1XjM_vh95aT3ewLF7u7I_sWWBLL0C_wkbF7SIYCIL8FtzGHs-EYyfcgbcZ7RqSq_Ce03NCKRj49Bznh5-t45e1WCEwr2aTvfvCqW-RbIYVp_TQmjIFAPDW1dOOOWoAkWw/s750/People%20group%20selfie_%20Friendly%20guy%20makes%20group%20photo%20with%20smi%20(982566)%20_%20Characters%20_%20Design%20Bundles.jpg" alt="Travel" />
               <div class="card-gradient"></div>
               <div class="card-content">
                 <h3 class="text-white font-bold text-base leading-snug mb-2">Kekeluargaan</h3>
-                <p class="text-white/75 text-xs leading-relaxed line-clamp-2">Manajemen aksi adalah suatu model yang menyatakan sikap, penyuaraan pendapat, opini atau tuntutan yang dilakukan</p>
+                <p class="text-white/75 text-xs leading-relaxed line-clamp-2">Kekeluargaan adalah konsep yang menggambarkan hubungan dan interaksi antar anggota keluarga yang saling mendukung, menghargai, dan memahami satu sama lain.</p>
               </div>
             </div>
           </div>
