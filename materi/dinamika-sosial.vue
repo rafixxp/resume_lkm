@@ -5,7 +5,7 @@
     <!-- Untuk mengganti gambarnya, silakan ganti isi dari atribut src nya dengan link gambar dari website -->
     <div class="mb-8">
         <img 
-        src="https://cdn.slidesharecdn.com/ss_thumbnails/abu-abuputihsederhanaseminarproposalppt202512270824480000-260207093741-f62bc6f2-thumbnail.jpg?width=640&height=640&fit=bounds" 
+        src="https://www.image2url.com/r2/default/images/1778689035832-7a3446f6-83f6-4327-ac96-717ebfbb309e.jpg" 
         alt="Wanderlust Unleashed: Top Hidden Gems You Must Visit This Year"
         class="w-full h-64 md:h-96 object-cover rounded-2xl"
         />
@@ -61,7 +61,7 @@
                     <h2 class= "text-2xl font-bold text-slate-800 mb-3">
                         B. Pengembangan Sikap Moderat dan Kritis
                     </h2>
-                    <p>Moderat adalah pandangan atau perilaku untuk mengambil jalan tengah guna menghindari ekstremitas (kiri maupun kanan), serta mengutamakan keseimbangan, keadilan, dan toleransi.
+                    <p class="text-slate-600 leading-relaxed mb-4">Moderat adalah pandangan atau perilaku untuk mengambil jalan tengah guna menghindari ekstremitas (kiri maupun kanan), serta mengutamakan keseimbangan, keadilan, dan toleransi.
                     <br>Kritis adalah sikap yang mengutamakan pertimbangan dan pemikiran yang matang sebelum mengambil suatu tindakan.</p>
 
                     <!-- untuk membuat order list 1,2,3 dst, salin tag ini lalu ganti isinya sesuai dengan materi -->
@@ -72,12 +72,12 @@
                     <h2 class= "text-2xl font-bold text-slate-800 mb-3">
                         C. Teknologi dan Peran Sosial Mahasiswa
                     </h2>
-                    <p>Dinamika Teknologi : </p>
+                    <p class="text-slate-600 leading-relaxed mb-4">Dinamika Teknologi : </p>
                     <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
                         <li>Dampak Positif: Efisiensi dalam mempersingkat waktu proses.</li>
                         <li>Dampak Negatif: Risiko penyebaran informasi palsu atau Hoax.</li>
                     </ol>
-                    <p>Peran mahasiswa dalam memberikan edukasi, dimulai dari lingkup terkecil yaitu keluarga, sebagai langkah minimal dalam menghadapi dampak teknologi.</p>
+                    <p class="text-slate-600 leading-relaxed mb-4">Peran mahasiswa dalam memberikan edukasi, dimulai dari lingkup terkecil yaitu keluarga, sebagai langkah minimal dalam menghadapi dampak teknologi.</p>
                 </section>
 
             </article>
