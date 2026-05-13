@@ -5,8 +5,8 @@
     <!-- Untuk mengganti gambarnya, silakan ganti isi dari atribut src nya dengan link gambar dari website -->
     <div class="mb-8">
         <img 
-        src="https://cdn.slidesharecdn.com/ss_thumbnails/abu-abuputihsederhanaseminarproposalppt202512270824480000-260207093741-f62bc6f2-thumbnail.jpg?width=640&height=640&fit=bounds" 
-        alt="Wanderlust Unleashed: Top Hidden Gems You Must Visit This Year"
+        src="https://gajihub.com/blog/wp-content/uploads/2022/11/pengembangan-organisasi-2.png" 
+        alt="Pembangunan dan Pengembangan Organisasi"
         class="w-full h-64 md:h-96 object-cover rounded-2xl"
         />
     </div>
@@ -14,7 +14,7 @@
     <div class="text-center">
         <!-- Untuk mengganti judul, cukup ganti isi "Manajemen Aksi" dengan judul yang anda akan tulis-->
         <h1 class="fade-up delay-1 text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 leading-tight mb-6">
-            Manajemen Aksi
+            Pembangunan dan Pengembangan Organisasi
         </h1>
         
         <div class="fade-up delay-2 flex flex-col sm:flex-row items-center justify-center gap-4 text-slate-500 ">
@@ -25,7 +25,7 @@
 
                 <!-- Tuliskan nama pematerinya disini -->
                 <span class="text-sm">
-                    Defri Crisna Pramudi
+                    Wildan Fauzi Agustian
                 </span>
 
             </div>
@@ -35,7 +35,7 @@
                 </svg>
                 <!-- Tuliskan tanggal pemateriannya disini -->
                 <span class="text-sm">
-                    Sabtu, 30 Maret 2026
+                    Minggu, 03 Mei 2026
                 </span>
             </div>
         </div>
@@ -50,16 +50,72 @@
                 <section class="mb-12">
 
                     <!-- isikan materinya disini, untuk membuat paragraf anda perlu menulis tag <p></p> untuk membuat paragraf baru. -->
+                    <h2 class= "text-2xl font-bold text-slate-800 mb-3">
+                     A. Pengertian Pembangunan Organisasi </h2>
                     <p class="text-slate-600 leading-relaxed mb-4">
-                        Manajemen aksi adalah suatu model yang menyatakan sikap, penyuaraan pendapat, opini atau tuntutan yang dilakukan dengan jumlah masa tertentu dan dengan teknik tertentu agar mendapatkan perhatian dari pihak yang ditujui tanpa menggunakan mekanisme konvensional atau birokrasi.
-                        
-                        <br><br>Landasan hukum => UU No.9/1998 tentang mekanisme penyampaian pendapat di muka umum yang terdiri dari :
+                        Pembangunan organisasi adalah sebuah proses untuk meningkatkan efektivitas organisasi yang berfokus pada perbaikan teknis, struktur, budaya, dan sumber daya manusia serta melibatkan perubahan berkelanjutkan demi tujuan jangka panjang.                        
                     </p>
 
+                    <h2 class= "text-2xl font-bold text-slate-800 mb-3"> 
+                    B. Tujuan Pembangunan Organisasi 
+                    </h2>
                     <!-- untuk membuat order list 1,2,3 dst, salin tag ini lalu ganti isinya sesuai dengan materi -->
                     <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
-                        <li>Dilarang membawa benda yang membahayakan keselamatan</li>
-                        <li>Menyampaikan laporan/pemberitahuan tertulis kepada pihak kepolisian</li>
+                        <li>Meningkatkan produktivitas dan efisiensi kerja</li>
+                        <li>Menyesuaikan organisasi dengan perubahan lingkungan</li>
+                        <li>Meningkatkan kualitas Sumber Daya Manusia (SDM) dan kepemimpinan</li>
+                        <li>Menciptakan budaya kerja yang positif</li>
+                    </ol>
+
+                    <h2 class= "text-2xl font-bold text-slate-800 mb-3"> 
+                    C. Pengertian Pengembangan Organisasi 
+                    </h2>
+                    <p class="text-slate-600 leading-relaxed mb-4">
+                        Pengembangan organisasi adalah proses berkelanjutan untuk meningkatkan kepemimpinan organisasi dengan melibatkan intervensi terhadap perilaku, struktur, dan teknologi, yang bertujuan untuk mencapai efektivitas organisasi jangka panjang.                        
+                    </p>
+
+                     <h2 class= "text-2xl font-bold text-slate-800 mb-3"> 
+                     D. Ciri - Ciri Pengembangan Organisasi
+                      </h2>
+                    <!-- untuk membuat order list 1,2,3 dst, salin tag ini lalu ganti isinya sesuai dengan materi -->
+                    <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
+                        <li>Berorientasi pada perubahan yang terencana</li>
+                        <li>Melibatkan seluruh annggota organisasi</li>
+                        <li>Bersifat partisipatif dan kolaboratif</li>
+                        <li>Fokus pada peningkatan efektivitas dan kinerja</li>
+                    </ol>
+
+                    <h2 class= "text-2xl font-bold text-slate-800 mb-3"> 
+                    E. Faktor Pendukung Pengembangan Organisasi 
+                    </h2>
+                    <!-- untuk membuat order list 1,2,3 dst, salin tag ini lalu ganti isinya sesuai dengan materi -->
+                    <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
+                        <li>Kepemimpinan Visioner</li>
+                        <li>Budaya Organisasi yang Adaptif</li>
+                        <li>Sitem komunikasi yang Efektif</li>
+                        <li>Sumber Daya Manusia (SDM) yang kompeten dan terbuka terhadap perubahan</li>
+                    </ol>
+
+                    <h2 class= "text-2xl font-bold text-slate-800 mb-3"> 
+                    F. Tahapan Pengembangan Organisasi 
+                    </h2>
+                    <!-- untuk membuat order list 1,2,3 dst, salin tag ini lalu ganti isinya sesuai dengan materi -->
+                    <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
+                        <li>Identifikasi Perubahan Organisasi</li>
+                        <li>Perancangan Intervensi dan Organisasi</li>
+                        <li>Implementasi Pembaharuan</li>
+                        <li>Evaluasi dan Tindak Lanjut</li>
+                    </ol>
+
+                    <h2 class= "text-2xl font-bold text-slate-800 mb-3"> 
+                    G. Manfaat Pengembangan Organisasi 
+                    </h2>
+                    <!-- untuk membuat order list 1,2,3 dst, salin tag ini lalu ganti isinya sesuai dengan materi -->
+                    <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
+                        <li>Tujuan organisasi tercapai dengan biaya dan tenaga yang lebih efisien</li>
+                        <li>Meningkatkan kepuasan kerja dan kemampuan anggota</li>
+                        <li>Organisasi lebih siap menghadapi perubahan lingkungan (seperti teknologi atau tren)</li>
+                        <li>Kerja jadi lebih cepat dan tepat sasaran (Produktivitas)</li>
                     </ol>
                 </section>
 
