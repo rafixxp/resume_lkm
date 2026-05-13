@@ -8,7 +8,7 @@
         <!-- IMAGE -->
         <div class="overflow-hidden rounded-3xl shadow-xl mb-8">
           <img
-            src="https://i.pinimg.com/736x/da/85/ba/da85ba0174ce346a11c03e42cd8d2a85.jpg"
+            src="https://i.pinimg.com/1200x/de/a8/35/dea835a169e88c563cbc4a2774f09c06.jpg"
             alt="Otoritas Informasi"
             class="w-full h-64 md:h-[420px] object-cover hover:scale-105 transition duration-500"
           />
