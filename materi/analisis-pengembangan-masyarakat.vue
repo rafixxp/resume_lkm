@@ -14,7 +14,7 @@
     <div class="text-center">
         <!-- Untuk mengganti judul, cukup ganti isi "Manajemen Aksi" dengan judul yang anda akan tulis-->
         <h1 class="fade-up delay-1 text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 leading-tight mb-6">
-            Manajemen Aksi
+            Analisis dan Pengembangan Masyarakat
         </h1>
         
         <div class="fade-up delay-2 flex flex-col sm:flex-row items-center justify-center gap-4 text-slate-500 ">
@@ -52,12 +52,14 @@
                     <!-- isikan materinya disini, untuk membuat paragraf anda perlu menulis tag <p></p> untuk membuat paragraf baru. -->
                      <h2 class= "text-2xl font-bold text-slate-800 mb-3">
                          A. Pengertian Pengembangan Masyarakat
+                    </h2>
                     <p class="text-slate-600 leading-relaxed mb-4">
                         Pengembangan masyarakat adalah proses memahami kondisi masyarakat secara menyeluruh untuk merancang dan melaksanakan upaya perubahan yang bertujuan meningkatkan kualitas hidup masyarakat secara berkelanjutan.
                     </p>
 
                      <h2 class= "text-2xl font-bold text-slate-800 mb-3">
                          B. Tujuan utama pengembangan masyarakat
+                    </h2>
                     <!-- untuk membuat order list 1,2,3 dst, salin tag ini lalu ganti isinya sesuai dengan materi -->
                     <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
                         <li>Meningkatkan kesejahteraan sosial dan ekonomi</li>
@@ -68,6 +70,7 @@
 
                     <h2 class= "text-2xl font-bold text-slate-800 mb-3">
                         C. Prinsip Pengembangan Masyarakat
+                    </h2>
                      <!-- untuk membuat order list 1,2,3 dst, salin tag ini lalu ganti isinya sesuai dengan materi -->
                     <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
                         <li>Partisipasi aktif masyarakat</li>
@@ -80,6 +83,7 @@
 
                     <h2 class= "text-2xl font-bold text-slate-800 mb-3">
                         D. Metode Pengembangan Masyarakat
+                    </h2>
                      <!-- untuk membuat order list 1,2,3 dst, salin tag ini lalu ganti isinya sesuai dengan materi -->
                     <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
                         <li>Observasi</li>
@@ -92,6 +96,7 @@
 
                     <h2 class= "text-2xl font-bold text-slate-800 mb-3">
                         E. Faktor Pendorong Pengembangan Masyarakat
+                    </h2>
                      <!-- untuk membuat order list 1,2,3 dst, salin tag ini lalu ganti isinya sesuai dengan materi -->
                     <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
                         <li>Internal : Pertumbuhan penduduk, inovasi dan kreativitas, pendidikan, kesadaran sosial, nilai dan budaya.</li>
@@ -100,6 +105,7 @@
 
                     <h2 class= "text-2xl font-bold text-slate-800 mb-3">
                         F. Alat Bantu Analisis Pengembangan Masyarakat
+                    </h2>
                     <!-- untuk membuat order list 1,2,3 dst, salin tag ini lalu ganti isinya sesuai dengan materi -->
                     <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
                         <li>Strange</li>
@@ -110,6 +116,7 @@
 
                     <h2 class= "text-2xl font-bold text-slate-800 mb-3">
                         G. Tahapan Pengembangan Masyarakat
+                    </h2>
                     <!-- untuk membuat order list 1,2,3 dst, salin tag ini lalu ganti isinya sesuai dengan materi -->
                     <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
                         <li>Identifikasi masalah analisis kebutuhan</li>
@@ -121,6 +128,7 @@
 
                     <h2 class= "text-2xl font-bold text-slate-800 mb-3">
                         H. Tantangan Pengembangan Masyarakat
+                    </h2>
                     <!-- untuk membuat order list 1,2,3 dst, salin tag ini lalu ganti isinya sesuai dengan materi -->
                     <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
                         <li>Kurangnya partisipasi masyarakat</li>
