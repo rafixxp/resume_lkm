@@ -50,17 +50,75 @@
                 <section class="mb-12">
 
                     <!-- isikan materinya disini, untuk membuat paragraf anda perlu menulis tag <p></p> untuk membuat paragraf baru. -->
-                    <p class="text-slate-600 leading-relaxed mb-4">
-                        Manajemen aksi adalah suatu model yang menyatakan sikap, penyuaraan pendapat, opini atau tuntutan yang dilakukan dengan jumlah masa tertentu dan dengan teknik tertentu agar mendapatkan perhatian dari pihak yang ditujui tanpa menggunakan mekanisme konvensional atau birokrasi.
-                        
-                        <br><br>Landasan hukum => UU No.9/1998 tentang mekanisme penyampaian pendapat di muka umum yang terdiri dari :
-                    </p>
+                    <!-- Pengertian -->
+<h3 class="text-lg font-semibold text-slate-800 mb-2">Pengertian Manajemen Aksi</h3>
+<p class="text-slate-600 leading-relaxed mb-4">
+    Manajemen aksi adalah proses mengatur, merencanakan, dan menjalankan sebuah kegiatan atau aksi agar tujuan yang diinginkan bisa tercapai dengan efektif dan terarah. Aksi di sini bisa berupa kegiatan sosial, proyek organisasi, kampanye, atau kegiatan lainnya.
+    
+    <br><br>
+    Intinya, manajemen aksi membantu kita supaya tidak bergerak asal-asalan, tapi memiliki arah yang jelas.
+</p>
 
-                    <!-- untuk membuat order list 1,2,3 dst, salin tag ini lalu ganti isinya sesuai dengan materi -->
-                    <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
-                        <li>Dilarang membawa benda yang membahayakan keselamatan</li>
-                        <li>Menyampaikan laporan/pemberitahuan tertulis kepada pihak kepolisian</li>
-                    </ol>
+<!-- Tujuan -->
+<h3 class="text-lg font-semibold text-slate-800 mb-2">Tujuan Manajemen Aksi</h3>
+<p class="text-slate-600 leading-relaxed mb-4">
+    Tujuan manajemen aksi adalah memastikan kegiatan berjalan dengan baik dan menghasilkan dampak maksimal.
+</p>
+
+<ol class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
+    <li>Menghindari kesalahan dalam pelaksanaan</li>
+    <li>Menghemat waktu, tenaga, dan biaya</li>
+    <li>Membagi tugas secara jelas</li>
+    <li>Mencapai target sesuai rencana</li>
+</ol>
+
+<!-- Tahapan -->
+<h3 class="text-lg font-semibold text-slate-800 mb-2">Tahapan Manajemen Aksi</h3>
+
+<h4 class="font-semibold text-slate-700 mt-2">1. Perencanaan</h4>
+<p class="text-slate-600 leading-relaxed mb-2">
+    Menentukan tujuan, target, waktu, tempat, dan kebutuhan aksi.
+</p>
+
+<h4 class="font-semibold text-slate-700 mt-2">2. Pengorganisasian</h4>
+<p class="text-slate-600 leading-relaxed mb-2">
+    Membagi tugas seperti ketua pelaksana, tim konsumsi, publikasi, dan dokumentasi.
+</p>
+
+<h4 class="font-semibold text-slate-700 mt-2">3. Pelaksanaan</h4>
+<p class="text-slate-600 leading-relaxed mb-2">
+    Menjalankan aksi sesuai rencana dengan kerja sama tim dan komunikasi yang baik.
+</p>
+
+<h4 class="font-semibold text-slate-700 mt-2">4. Evaluasi</h4>
+<p class="text-slate-600 leading-relaxed mb-4">
+    Menilai hasil kegiatan, kendala, serta perbaikan ke depan.
+</p>
+
+<!-- Contoh -->
+<h3 class="text-lg font-semibold text-slate-800 mb-2">Contoh Penerapan</h3>
+
+<h4 class="font-semibold text-slate-700 mt-2">Seminar</h4>
+<ol class="list-decimal list-inside text-slate-600 space-y-2 mb-4">
+    <li>Perencanaan: menentukan tema dan pembicara</li>
+    <li>Pengorganisasian: membentuk panitia</li>
+    <li>Pelaksanaan: menjalankan acara</li>
+    <li>Evaluasi: melihat respon peserta</li>
+</ol>
+
+<h4 class="font-semibold text-slate-700 mt-2">Demonstrasi</h4>
+<ol class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
+    <li>Perencanaan: menentukan tujuan dan lokasi aksi</li>
+    <li>Pengorganisasian: membagi peran seperti korlap</li>
+    <li>Pelaksanaan: aksi berjalan tertib</li>
+    <li>Evaluasi: menilai hasil aksi</li>
+</ol>
+
+<!-- Kesimpulan -->
+<h3 class="text-lg font-semibold text-slate-800 mb-2">Kesimpulan</h3>
+<p class="text-slate-600 leading-relaxed mb-4">
+    Manajemen aksi membuat kegiatan lebih terarah, tertib, dan efektif sehingga tujuan dapat tercapai secara maksimal.
+</p>
                 </section>
 
             </article>
