@@ -54,7 +54,7 @@ const search = () => {
           </div>
           <div class="col-span-1" @click="pageOn('analisis-pengembangan-masyarakat' )">
             <div class="card-img-wrap">
-              <img src="https://cdn.slidesharecdn.com/ss_thumbnails/abu-abuputihsederhanaseminarproposalppt202512270824480000-260207093741-f62bc6f2-thumbnail.jpg?width=640&height=640&fit=bounds" alt="Travel" />
+              <img src="https://i.pinimg.com/736x/34/eb/c0/34ebc0b72a665d08d2cafd79280f459a.jpg" alt="Travel" />
               <div class="card-gradient"></div>
               <div class="card-content">
                 <h3 class="text-white font-bold text-base leading-snug mb-2">Analisis Pengembangan Masyarakat</h3>
@@ -64,7 +64,7 @@ const search = () => {
           </div>
           <div class="col-span-1" @click="pageOn('dinamika-sosial' )">
             <div class="card-img-wrap">
-              <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_750,h_375/https://kalimahsawa.id/wp-content/uploads/2025/12/5c0b19e6-cda5-4708-9bb6-39ae85a05c35-1-750x375.jpg" alt="Travel" />
+              <img src="https://www.image2url.com/r2/default/images/1778689035832-7a3446f6-83f6-4327-ac96-717ebfbb309e.jpg" alt="Travel" />
               <div class="card-gradient"></div>
               <div class="card-content">
                 <h3 class="text-white font-bold text-base leading-snug mb-2">Dinamika Sosial dan Politik</h3>

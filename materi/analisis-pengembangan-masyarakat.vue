@@ -5,7 +5,7 @@
     <!-- Untuk mengganti gambarnya, silakan ganti isi dari atribut src nya dengan link gambar dari website -->
     <div class="mb-8">
         <img 
-        src="https://cdn.slidesharecdn.com/ss_thumbnails/abu-abuputihsederhanaseminarproposalppt202512270824480000-260207093741-f62bc6f2-thumbnail.jpg?width=640&height=640&fit=bounds" 
+        src="https://i.pinimg.com/736x/34/eb/c0/34ebc0b72a665d08d2cafd79280f459a.jpg" 
         alt="Wanderlust Unleashed: Top Hidden Gems You Must Visit This Year"
         class="w-full h-64 md:h-96 object-cover rounded-2xl"
         />
@@ -14,7 +14,7 @@
     <div class="text-center">
         <!-- Untuk mengganti judul, cukup ganti isi "Manajemen Aksi" dengan judul yang anda akan tulis-->
         <h1 class="fade-up delay-1 text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 leading-tight mb-6">
-            Manajemen Aksi
+            Analisis dan Pengembangan Masyarakat
         </h1>
         
         <div class="fade-up delay-2 flex flex-col sm:flex-row items-center justify-center gap-4 text-slate-500 ">
@@ -25,7 +25,7 @@
 
                 <!-- Tuliskan nama pematerinya disini -->
                 <span class="text-sm">
-                    Defri Crisna Pramudi
+                    Ace Hermawan
                 </span>
 
             </div>
@@ -35,7 +35,7 @@
                 </svg>
                 <!-- Tuliskan tanggal pemateriannya disini -->
                 <span class="text-sm">
-                    Sabtu, 30 Maret 2026
+                    Sabtu, 25 April 2026
                 </span>
             </div>
         </div>
@@ -50,16 +50,92 @@
                 <section class="mb-12">
 
                     <!-- isikan materinya disini, untuk membuat paragraf anda perlu menulis tag <p></p> untuk membuat paragraf baru. -->
+                     <h2 class= "text-2xl font-bold text-slate-800 mb-3">
+                         A. Pengertian Pengembangan Masyarakat
+                    </h2>
                     <p class="text-slate-600 leading-relaxed mb-4">
-                        Manajemen aksi adalah suatu model yang menyatakan sikap, penyuaraan pendapat, opini atau tuntutan yang dilakukan dengan jumlah masa tertentu dan dengan teknik tertentu agar mendapatkan perhatian dari pihak yang ditujui tanpa menggunakan mekanisme konvensional atau birokrasi.
-                        
-                        <br><br>Landasan hukum => UU No.9/1998 tentang mekanisme penyampaian pendapat di muka umum yang terdiri dari :
+                        Pengembangan masyarakat adalah proses memahami kondisi masyarakat secara menyeluruh untuk merancang dan melaksanakan upaya perubahan yang bertujuan meningkatkan kualitas hidup masyarakat secara berkelanjutan.
                     </p>
 
+                     <h2 class= "text-2xl font-bold text-slate-800 mb-3">
+                         B. Tujuan utama pengembangan masyarakat
+                    </h2>
                     <!-- untuk membuat order list 1,2,3 dst, salin tag ini lalu ganti isinya sesuai dengan materi -->
                     <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
-                        <li>Dilarang membawa benda yang membahayakan keselamatan</li>
-                        <li>Menyampaikan laporan/pemberitahuan tertulis kepada pihak kepolisian</li>
+                        <li>Meningkatkan kesejahteraan sosial dan ekonomi</li>
+                        <li>Mengembangkan potensi lokal</li>
+                        <li>Mendorong kemandirian masyarakat</li>
+                        <li>Mengurangi kesenjangan sosial</li>
+                    </ol>
+
+                    <h2 class= "text-2xl font-bold text-slate-800 mb-3">
+                        C. Prinsip Pengembangan Masyarakat
+                    </h2>
+                     <!-- untuk membuat order list 1,2,3 dst, salin tag ini lalu ganti isinya sesuai dengan materi -->
+                    <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
+                        <li>Partisipasi aktif masyarakat</li>
+                        <li>Keadilan sosial</li>
+                        <li>Kemandirian</li>
+                        <li>Kebutuhan berbasis data</li>
+                        <li>Keberlanjutan</li>
+                        <li>Inkluavitas (melibatkan semua kelompok)</li>
+                    </ol>
+
+                    <h2 class= "text-2xl font-bold text-slate-800 mb-3">
+                        D. Metode Pengembangan Masyarakat
+                    </h2>
+                     <!-- untuk membuat order list 1,2,3 dst, salin tag ini lalu ganti isinya sesuai dengan materi -->
+                    <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
+                        <li>Observasi</li>
+                        <li>Wawancara</li>
+                        <li>Focus group disscusion</li>
+                        <li>Survei/kuisioner</li>
+                        <li>Partysipatory rural apparasial</li>
+                        <li>Social Mapping</li>
+                    </ol>
+
+                    <h2 class= "text-2xl font-bold text-slate-800 mb-3">
+                        E. Faktor Pendorong Pengembangan Masyarakat
+                    </h2>
+                     <!-- untuk membuat order list 1,2,3 dst, salin tag ini lalu ganti isinya sesuai dengan materi -->
+                    <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
+                        <li>Internal : Pertumbuhan penduduk, inovasi dan kreativitas, pendidikan, kesadaran sosial, nilai dan budaya.</li>
+                        <li>External : Globalisasi, perkembangan teknologi, kebijakan pemerintah, interaksi antar budaya.</li>
+                    </ol>
+
+                    <h2 class= "text-2xl font-bold text-slate-800 mb-3">
+                        F. Alat Bantu Analisis Pengembangan Masyarakat
+                    </h2>
+                    <!-- untuk membuat order list 1,2,3 dst, salin tag ini lalu ganti isinya sesuai dengan materi -->
+                    <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
+                        <li>Strange</li>
+                        <li>Weakness</li>
+                        <li>Oppurtunity</li>
+                        <li>Threats</li>
+                    </ol>
+
+                    <h2 class= "text-2xl font-bold text-slate-800 mb-3">
+                        G. Tahapan Pengembangan Masyarakat
+                    </h2>
+                    <!-- untuk membuat order list 1,2,3 dst, salin tag ini lalu ganti isinya sesuai dengan materi -->
+                    <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
+                        <li>Identifikasi masalah analisis kebutuhan</li>
+                        <li>Perencanaan program</li>
+                        <li>Implementasi</li>
+                        <li>Evaluasi</li>
+                        <li>Keberlanjutan</li>
+                    </ol>
+
+                    <h2 class= "text-2xl font-bold text-slate-800 mb-3">
+                        H. Tantangan Pengembangan Masyarakat
+                    </h2>
+                    <!-- untuk membuat order list 1,2,3 dst, salin tag ini lalu ganti isinya sesuai dengan materi -->
+                    <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
+                        <li>Kurangnya partisipasi masyarakat</li>
+                        <li>Keterbatasan sumber daya</li>
+                        <li>Konflik kepentingan</li>
+                        <li>Budaya yang sulit berubah</li>
+                        <li>Intervensi yang tidak sesuai dengan konteks</li>
                     </ol>
                 </section>
 
