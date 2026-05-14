@@ -25,7 +25,7 @@
 
                 <!-- Tuliskan nama pematerinya disini -->
                 <span class="text-sm">
-                    Ace
+                    Ace Hermawan
                 </span>
 
             </div>
