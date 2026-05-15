@@ -25,7 +25,7 @@
 
                 <!-- Tuliskan nama pematerinya disini -->
                 <span class="text-sm">
-                    Abang angkatan 23 menarik
+                    A Abdillah
                 </span>
 
             </div>

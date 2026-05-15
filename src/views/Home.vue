@@ -56,17 +56,17 @@
 
 <script setup>
 const team = [
-  { name: 'Muhammad Najmi Ash Shidiq', role: '257006111', image: './najmi.webp' },
-  { name: 'Muhammad Dimas Nugraha', role: '2570061110', image: './dimas.webp' },
-  { name: 'Fawwaz Faadhilah Braliana', role: '257006111', image: './fawwaz.webp' },
-  { name: 'Dita Dwi Meilani', role: '257006111', image: './dita.webp' },
-  { name: 'Ahmad Faiz Muzaki', role: '257006111', image: './dimas.webp' },
-  { name: 'Rafi Ahfa Fauzan', role: '257006111017', image: './ahpa.webp' },
-  { name: 'Yudha Arief Permana', role: '257006111', image: './yudha.webp' },
-  { name: 'Ihsan Nugraha', role: '257006111', image: './dimas.webp' },
-  { name: 'Sahla Jahidatul Mila Al Azizah', role: '257006111', image: './dimas.webp' },
-  { name: 'Muhammad Ilham Rizky', role: '257006111', image: './ilham.jpeg' },
-  { name: 'Marcelino Herlambang', role: '257006111', image: './dimas.webp' },
+  { name: 'Muhammad Najmi Ash Shidiq', role: '', image: './najmi.webp' },
+  { name: 'Muhammad Dimas Nugraha', role: '0', image: './dimas.webp' },
+  { name: 'Fawwaz Faadhilah Braliana', role: '', image: './fawwaz.webp' },
+  { name: 'Dita Dwi Meilani', role: '', image: './dita.webp' },
+  { name: 'Ahmad Faiz Muzaki', role: '', image: './zaki.jpeg' },
+  { name: 'Rafi Ahfa Fauzan', role: '', image: './ahpa.webp' },
+  { name: 'Yudha Arief Permana', role: '', image: './yudha.webp' },
+  { name: 'Ihsan Nugraha', role: '', image: './dimas.webp' },
+  { name: 'Sahla Jahidatul Mila Al Azizah', role: '', image: './sahla.jpeg' },
+  { name: 'Muhammad Ilham Rizky', role: '', image: './ilham.jpeg' },
+  { name: 'Marcelino Herlambang', role: '', image: './dimas.webp' },
 ]
 
 const techStack = [
