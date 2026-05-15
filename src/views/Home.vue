@@ -31,8 +31,8 @@
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           <div v-for="member in team" :key="member.name" class="bg-white p-8 border border-gray-100 rounded-lg hover:shadow-xl transition-shadow text-center">
-            <div class="w-30 h-30 overflow-hidden text-white rounded-full flex items-center justify-center font-bold mb-6 mx-auto">
-              <img :src="member.image" alt="member image" class="object-cover">
+            <div class="w-30 h-30 overflow-hidden text-white rounded-full mb-6 mx-auto">
+              <img :src="member.image" alt="member image" class="object-fit-cover">
             </div>
             <h3 class="font-bold text-md mb-1">{{ member.name }}</h3>
             <p class="text-sm text-gray-500">{{ member.role }}</p>
@@ -56,16 +56,16 @@
 
 <script setup>
 const team = [
-  { name: 'Rafi Ahfa Fauzan', role: '257006111017', image: './ahpa.webp' },
   { name: 'Muhammad Najmi Ash Shidiq', role: '257006111', image: './najmi.webp' },
   { name: 'Muhammad Dimas Nugraha', role: '2570061110', image: './dimas.webp' },
   { name: 'Fawwaz Faadhilah Braliana', role: '257006111', image: './dimas.webp' },
-  { name: 'Muhammad Ilham Rizky', role: '257006111', image: './dimas.webp' },
+  { name: 'Dita Dwi Meilani', role: '257006111', image: './dita.webp' },
   { name: 'Ahmad Faiz Muzaki', role: '257006111', image: './dimas.webp' },
+  { name: 'Rafi Ahfa Fauzan', role: '257006111017', image: './ahpa.webp' },
+  { name: 'Yudha Arief Permana', role: '257006111', image: './yudha.webp' },
   { name: 'Ihsan Nugraha', role: '257006111', image: './dimas.webp' },
-  { name: 'Dita Dwi Meilani', role: '257006111', image: './dimas.webp' },
   { name: 'Sahla Jahidatul Mila Al Azizah', role: '257006111', image: './dimas.webp' },
-  { name: 'Yudha Arief Permana', role: '257006111', image: './dimas.webp' },
+  { name: 'Muhammad Ilham Rizky', role: '257006111', image: './dimas.webp' },
   { name: 'Marcelino Herlambang', role: '257006111', image: './dimas.webp' },
 ]
 

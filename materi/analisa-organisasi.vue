@@ -5,7 +5,7 @@
     <!-- Untuk mengganti gambarnya, silakan ganti isi dari atribut src nya dengan link gambar dari website -->
     <div class="mb-8">
         <img 
-        src="https://sdmindonesia.com/analisis-aspek-organisasi-dan-manajemen/" 
+        src="https://sdmindonesia.com/wp-content/uploads/2022/04/Analisis-Aspek-Organisasi-dan-Manajemen.jpg" 
         alt="Wanderlust Unleashed: Top Hidden Gems You Must Visit This Year"
         class="w-full h-64 md:h-96 object-cover rounded-2xl"
         />

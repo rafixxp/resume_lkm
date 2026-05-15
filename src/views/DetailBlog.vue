@@ -18,49 +18,51 @@ const materiComponent = computed(() => {
 </script>
 
 <template>
-  <component v-if="materiComponent" :is="materiComponent" />
-  
-  <div v-else class="min-h-screen flex items-center justify-center">
-    <div class="text-center px-4">
-      <div class="mb-8">
-        <div class="w-24 h-24 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-          <svg class="w-12 h-12 text-red-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M9.172 16.172a4 4 0 015.656 0l6.828-6.828a4 4 0 00-5.656 0l-6.828 6.828a4 4 0 001.657 0z"/>
-            <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M12 21v-4.011"/>
-          </svg>
+  <div class="mt-20">
+    <component v-if="materiComponent" :is="materiComponent" />
+    
+    <div v-else class="min-h-screen flex items-center justify-center">
+      <div class="text-center px-4">
+        <div class="mb-8">
+          <div class="w-24 h-24 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="w-12 h-12 text-red-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9.172 16.172a4 4 0 015.656 0l6.828-6.828a4 4 0 00-5.656 0l-6.828 6.828a4 4 0 001.657 0z"/>
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M12 21v-4.011"/>
+            </svg>
+          </div>
         </div>
-      </div>
-      
-      <h1 class="text-4xl font-bold text-slate-900 mb-4">404 - Materi Tidak Ditemukan</h1>
-      <p class="text-lg text-slate-600 mb-6 max-w-md mx-auto">
-        Maaf, materi yang Anda cari tidak tersedia. Silakan periksa kembali URL atau kembali ke halaman utama.
-      </p>
-      
-      <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <router-link 
-          to="/" 
-          class="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full transition-colors"
-        >
-          <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7-7-7m-7 7h18"/>
-          </svg>
-          Kembali ke Beranda
-        </router-link>
         
-        <router-link 
-          to="/blog" 
-          class="inline-flex items-center px-6 py-3 border border-slate-300 hover:border-slate-400 text-slate-700 hover:text-slate-900 font-semibold rounded-full transition-colors"
-        >
-          <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2v-4a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2z"/>
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3 7h18M3 12h18"/>
-          </svg>
-          Lihat Semua Materi
-        </router-link>
-      </div>
-      
-      <div class="mt-12 text-sm text-slate-500">
-        <p>Kode Error: 404 | Halaman Tidak Ditemukan</p>
+        <h1 class="text-4xl font-bold text-slate-900 mb-4">404 - Materi Tidak Ditemukan</h1>
+        <p class="text-lg text-slate-600 mb-6 max-w-md mx-auto">
+          Maaf, materi yang Anda cari tidak tersedia. Silakan periksa kembali URL atau kembali ke halaman utama.
+        </p>
+        
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <router-link 
+            to="/" 
+            class="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full transition-colors"
+          >
+            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7-7-7m-7 7h18"/>
+            </svg>
+            Kembali ke Beranda
+          </router-link>
+          
+          <router-link 
+            to="/blog" 
+            class="inline-flex items-center px-6 py-3 border border-slate-300 hover:border-slate-400 text-slate-700 hover:text-slate-900 font-semibold rounded-full transition-colors"
+          >
+            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2v-4a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2z"/>
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 7h18M3 12h18"/>
+            </svg>
+            Lihat Semua Materi
+          </router-link>
+        </div>
+        
+        <div class="mt-12 text-sm text-slate-500">
+          <p>Kode Error: 404 | Halaman Tidak Ditemukan</p>
+        </div>
       </div>
     </div>
   </div>
