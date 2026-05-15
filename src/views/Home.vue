@@ -24,17 +24,17 @@
         <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
           <div>
             <h2 class="text-3xl font-bold mb-2">Tim Kami</h2>
-            <p class="text-gray-500">Mahasiswa di balik proyek kepemimpinan ini.</p>
+            <p class="text-gray-500">Ada beberapa orang di balik proyek website ini.</p>
           </div>
           <div class="h-[2px] w-20 bg-black hidden md:block"></div>
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          <div v-for="member in team" :key="member.name" class="bg-white p-8 border border-gray-100 rounded-lg hover:shadow-xl transition-shadow">
-            <div class="w-12 h-12 bg-black text-white rounded-full flex items-center justify-center font-bold mb-6">
-              {{ member.initial }}
+          <div v-for="member in team" :key="member.name" class="bg-white p-8 border border-gray-100 rounded-lg hover:shadow-xl transition-shadow text-center">
+            <div class="w-30 h-30 overflow-hidden text-white rounded-full flex items-center justify-center font-bold mb-6 mx-auto">
+              <img :src="member.image" alt="member image" class="object-cover">
             </div>
-            <h3 class="font-bold text-lg mb-1">{{ member.name }}</h3>
+            <h3 class="font-bold text-md mb-1">{{ member.name }}</h3>
             <p class="text-sm text-gray-500">{{ member.role }}</p>
           </div>
         </div>
@@ -56,10 +56,17 @@
 
 <script setup>
 const team = [
-  { name: 'Anggota 1', role: 'Frontend Developer', initial: 'A' },
-  { name: 'Anggota 2', role: 'Backend Developer', initial: 'B' },
-  { name: 'Anggota 3', role: 'UI Designer', initial: 'C' },
-  { name: 'Anggota 4', role: 'Content Writer', initial: 'D' },
+  { name: 'Rafi Ahfa Fauzan', role: '257006111017', image: './ahpa.webp' },
+  { name: 'Muhammad Najmi Ash Shidiq', role: '257006111', image: './najmi.webp' },
+  { name: 'Muhammad Dimas Nugraha', role: '2570061110', image: './dimas.webp' },
+  { name: 'Fawwaz Faadhilah Braliana', role: '257006111', image: './dimas.webp' },
+  { name: 'Muhammad Ilham Rizky', role: '257006111', image: './dimas.webp' },
+  { name: 'Ahmad Faiz Muzaki', role: '257006111', image: './dimas.webp' },
+  { name: 'Ihsan Nugraha', role: '257006111', image: './dimas.webp' },
+  { name: 'Dita Dwi Meilani', role: '257006111', image: './dimas.webp' },
+  { name: 'Sahla Jahidatul Mila Al Azizah', role: '257006111', image: './dimas.webp' },
+  { name: 'Yudha Arief Permana', role: '257006111', image: './dimas.webp' },
+  { name: 'Marcelino Herlambang', role: '257006111', image: './dimas.webp' },
 ]
 
 const techStack = [
