@@ -1,3 +1,53 @@
+<template>
+  <div class="bg-white text-black min-h-screen font-sans selection:bg-black selection:text-white">
+    <!-- Hero Section: Sederhana & Langsung -->
+    <section class="max-w-5xl mx-auto px-6 pt-24 pb-16 text-center my-20">
+      <div class="inline-block border border-black px-4 py-1 rounded-full mb-6">
+        <span class="text-[10px] font-bold tracking-widest uppercase">Modul Pembelajaran</span>
+      </div>
+      <h1 class="text-4xl md:text-6xl font-bold tracking-tight mb-6">
+        Materi Kepemimpinan
+      </h1>
+      <p class="text-gray-500 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
+        Daftar referensi lengkap untuk membantu Anda memahami konsep organisasi, sosial, dan pengembangan diri.
+      </p>
+    </section>
+
+    <!-- Grid Materi: Kartu Minimalis -->
+    <main class="max-w-6xl mx-auto px-6 pb-32">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <div 
+          v-for="item in materiList" 
+          :key="item.slug"
+          @click="pageOn(item.slug)"
+          class="group bg-white border border-gray-200 p-8 rounded-xl hover:border-black hover:shadow-sm transition-all cursor-pointer flex flex-col justify-between"
+        >
+          <div>
+            <div class="w-10 h-10 bg-gray-50 rounded-lg flex items-center justify-center mb-6 group-hover:bg-black group-hover:text-white transition-colors">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold mb-3 tracking-tight">{{ item.title }}</h3>
+            <p class="text-gray-500 text-sm leading-relaxed mb-6">
+              {{ item.desc }}
+            </p>
+          </div>
+          
+          <div class="flex items-center gap-2 text-xs font-bold tracking-wider uppercase group-hover:gap-4 transition-all">
+            Pelajari Materi
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+            </svg>
+          </div>
+        </div>
+
+      </div>
+    </main>
+  </div>
+</template>
+
 <script setup>
 import { useRouter } from 'vue-router';
 const router = useRouter();
@@ -6,271 +56,27 @@ const pageOn = (slug) => {
   router.push(`/materi/${slug}`);
 }
 
-const search = () => {
-  
-}
+const materiList = [
+  { title: 'Analisa Organisasi', slug: 'analisa-organisasi', desc: 'Memahami struktur dan perilaku organisasi untuk mencapai tujuan bersama.' },
+  { title: 'Analisis Masyarakat', slug: 'analisis-pengembangan-masyarakat', desc: 'Strategi pemberdayaan dan pengembangan potensi masyarakat lokal.' },
+  { title: 'Dinamika Sosial', slug: 'dinamika-sosial', desc: 'Mempelajari interaksi dan perubahan pola sosial dalam kepemimpinan.' },
+  { title: 'Kekeluargaan', slug: 'kekeluargaan', desc: 'Pentingnya rasa memiliki dan hubungan harmonis dalam sebuah tim.' },
+  { title: 'Otoritas Informasi', slug: 'otoritas-informasi', desc: 'Manajemen sumber data dan validasi informasi untuk pengambilan keputusan.' },
+  { title: 'Pengembangan Organisasi', slug: 'pengembangan-pembangunan-organisasi', desc: 'Langkah taktis membangun kapasitas dan keberlanjutan organisasi.' },
+  { title: 'Retorika', slug: 'retorika', desc: 'Seni berkomunikasi secara efektif untuk meyakinkan dan memotivasi.' },
+  { title: 'Manajemen Aksi', slug: 'manajemen-aksi', desc: 'Teknis pengorganisasian gerakan dan penyampaian pendapat di publik.' },
+]
 </script>
 
-<template>
-<section class="hero-section px-4 md:px-8 lg:px-16 pt-30 pb-22 text-center">
-  <div class="max-w-2xl mx-auto">
-    <span class="fade-up inline-block text-xs font-semibold tracking-widest text-blue-600 uppercase border border-blue-200 bg-blue-50 px-4 py-1 rounded-full mb-5">Materi</span>
-    <h1 class="fade-up delay-1 text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 leading-tight mb-4">
-      Temukan Materi Kepemimpinan Disini
-    </h1>
-    <p class="fade-up delay-2 text-slate-500 text-base sm:text-lg leading-relaxed mb-8">
-      Temukan berbagai materi kepemimpinan yang bisa kamu jadikan referensi untuk mengembangkan diri dan memimpin dengan lebih baik.
-    </p>
- 
-    <!-- <div class="fade-up delay-3 flex items-center gap-3 max-w-lg mx-auto">
-      <div class="relative flex-1">
-        <svg class="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z"/>
-        </svg>
-        <input type="text" placeholder="Cari Materi.." class="search-bar" @change="search()">
-      </div>
-    </div> -->
-  </div>
-</section>
- 
-<main class="px-4 md:px-8 lg:px-16 pb-20">
-  <div class="max-w-7xl mx-auto">
- 
-    <div class="flex flex-col lg:flex-row gap-10">
- 
-      <div class="min-w-0">
- 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-5">
-
-          <div class="col-span-1" @click="pageOn('analisa-organisasi' )">
-            <div class="card-img-wrap">
-              <img src="https://cdn.slidesharecdn.com/ss_thumbnails/abu-abuputihsederhanaseminarproposalppt202512270824480000-260207093741-f62bc6f2-thumbnail.jpg?width=640&height=640&fit=bounds" alt="Travel" />
-              <div class="card-gradient"></div>
-              <div class="card-content">
-                <h3 class="text-white font-bold text-base leading-snug mb-2">Analisa Organisasi</h3>
-                <p class="text-white/75 text-xs leading-relaxed line-clamp-2">Manajemen aksi adalah suatu model yang menyatakan sikap, penyuaraan pendapat, opini atau tuntutan yang dilakukan</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-span-1" @click="pageOn('analisis-pengembangan-masyarakat' )">
-            <div class="card-img-wrap">
-              <img src="https://i.pinimg.com/736x/34/eb/c0/34ebc0b72a665d08d2cafd79280f459a.jpg" alt="Travel" />
-              <div class="card-gradient"></div>
-              <div class="card-content">
-                <h3 class="text-white font-bold text-base leading-snug mb-2">Analisis Pengembangan Masyarakat</h3>
-                <p class="text-white/75 text-xs leading-relaxed line-clamp-2">Manajemen aksi adalah suatu model yang menyatakan sikap, penyuaraan pendapat, opini atau tuntutan yang dilakukan</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-span-1" @click="pageOn('dinamika-sosial' )">
-            <div class="card-img-wrap">
-              <img src="https://www.image2url.com/r2/default/images/1778689035832-7a3446f6-83f6-4327-ac96-717ebfbb309e.jpg" alt="Travel" />
-              <div class="card-gradient"></div>
-              <div class="card-content">
-                <h3 class="text-white font-bold text-base leading-snug mb-2">Dinamika Sosial dan Politik</h3>
-                <p class="text-white/75 text-xs leading-relaxed line-clamp-2">Manajemen aksi adalah suatu model yang menyatakan sikap, penyuaraan pendapat, opini atau tuntutan yang dilakukan</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-span-1" @click="pageOn('kekeluargaan' )">
-            <div class="card-img-wrap">
-              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj541kQxIxQlDOrUVv8rdxCZp8DNtyxcBDMufkCfvQ4JqtEecx-rspGK81gr1XjM_vh95aT3ewLF7u7I_sWWBLL0C_wkbF7SIYCIL8FtzGHs-EYyfcgbcZ7RqSq_Ce03NCKRj49Bznh5-t45e1WCEwr2aTvfvCqW-RbIYVp_TQmjIFAPDW1dOOOWoAkWw/s750/People%20group%20selfie_%20Friendly%20guy%20makes%20group%20photo%20with%20smi%20(982566)%20_%20Characters%20_%20Design%20Bundles.jpg" alt="Travel" />
-              <div class="card-gradient"></div>
-              <div class="card-content">
-                <h3 class="text-white font-bold text-base leading-snug mb-2">Kekeluargaan</h3>
-                <p class="text-white/75 text-xs leading-relaxed line-clamp-2">Kekeluargaan adalah konsep yang menggambarkan hubungan dan interaksi antar anggota keluarga yang saling mendukung, menghargai, dan memahami satu sama lain.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-span-1" @click="pageOn('otoritas-informasi' )">
-            <div class="card-img-wrap">
-              <img src="https://i.pinimg.com/1200x/de/a8/35/dea835a169e88c563cbc4a2774f09c06.jpg" alt="Travel" />
-              <div class="card-gradient"></div>
-              <div class="card-content">
-                <h3 class="text-white font-bold text-base leading-snug mb-2">Otoritas Informasi</h3>
-                <p class="text-white/75 text-xs leading-relaxed line-clamp-2">Manajemen aksi adalah suatu model yang menyatakan sikap, penyuaraan pendapat, opini atau tuntutan yang dilakukan</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-span-1" @click="pageOn('pengembangan-pembangunan-organisasi' )">
-            <div class="card-img-wrap">
-              <img src="https://gajihub.com/blog/wp-content/uploads/2022/11/pengembangan-organisasi-2.png" alt="Pengembangan dan Pembangunan Organisasi" />
-              <div class="card-gradient"></div>
-              <div class="card-content">
-                <h3 class="text-white font-bold text-base leading-snug mb-2">Pengembangan dan Pembangunan Organisasi</h3>
-                <p class="text-white/75 text-xs leading-relaxed line-clamp-2">Manajemen aksi adalah suatu model yang menyatakan sikap, penyuaraan pendapat, opini atau tuntutan yang dilakukan</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-span-1" @click="pageOn('retorika' )">
-            <div class="card-img-wrap">
-              <img src="https://cdn.slidesharecdn.com/ss_thumbnails/abu-abuputihsederhanaseminarproposalppt202512270824480000-260207093741-f62bc6f2-thumbnail.jpg?width=640&height=640&fit=bounds" alt="Travel" />
-              <div class="card-gradient"></div>
-              <div class="card-content">
-                <h3 class="text-white font-bold text-base leading-snug mb-2">Retorika</h3>
-                <p class="text-white/75 text-xs leading-relaxed line-clamp-2">Manajemen aksi adalah suatu model yang menyatakan sikap, penyuaraan pendapat, opini atau tuntutan yang dilakukan</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-span-1" @click="pageOn('manajemen-aksi' )">
-            <div class="card-img-wrap">
-              <img src="https://cdn.slidesharecdn.com/ss_thumbnails/abu-abuputihsederhanaseminarproposalppt202512270824480000-260207093741-f62bc6f2-thumbnail.jpg?width=640&height=640&fit=bounds" alt="Travel" />
-              <div class="card-gradient"></div>
-              <div class="card-content">
-                <h3 class="text-white font-bold text-base leading-snug mb-2">Manajemen Aksi</h3>
-                <p class="text-white/75 text-xs leading-relaxed line-clamp-2">Manajemen aksi adalah suatu model yang menyatakan sikap, penyuaraan pendapat, opini atau tuntutan yang dilakukan</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </div>
-  </div>
-</main>
-
-</template>
-
 <style scoped>
-  :root {
-    --blue: #2563EB;
-    --blue-light: #EFF6FF;
-    --dark: #0f172a;
-    --mid: #475569;
-    --soft: #94a3b8;
-    --bg: #f8fafc;
-    --card-radius: 16px;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
-  * { box-sizing: border-box; }
+div {
+  font-family: 'Inter', sans-serif;
+}
 
-  body {
-    font-family: 'DM Sans', sans-serif;
-    background: var(--bg);
-    color: var(--dark);
-    margin: 0;
-  }
-
-  h1, h2, h3, h4, .logo-text {
-    font-family: 'Sora', sans-serif;
-  }
-
-  /* ── Nav ── */
-  nav {
-    background: #fff;
-    border-bottom: 1px solid #e2e8f0;
-    position: sticky;
-    top: 0;
-    z-index: 50;
-  }
-
-  /* ── Search bar ── */
-  .search-bar {
-    border: 1.5px solid #e2e8f0;
-    border-radius: 50px;
-    padding: 10px 18px 10px 44px;
-    width: 100%;
-    font-size: 14px;
-    outline: none;
-    transition: border-color .2s;
-    background: #fff;
-    font-family: 'DM Sans', sans-serif;
-  }
-  .search-bar:focus { border-color: var(--blue); }
-
-  /* ── Hero bg gradient ── */
-  .hero-section {
-    background: white;
-  }
-
-  /* ── Card image overlay ── */
-  .card-img-wrap {
-    position: relative;
-    overflow: hidden;
-    border-radius: var(--card-radius);
-    height: 280px;
-  }
-  @media (max-width: 640px) {
-    .card-img-wrap { height: 220px; }
-  }
-
-  .card-img-wrap img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform .45s ease;
-  }
-  .card-img-wrap:hover img { transform: scale(1.05); }
-
-  .card-gradient {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(to top, rgba(0,0,0,.72) 0%, rgba(0,0,0,.1) 55%, transparent 100%);
-    border-radius: var(--card-radius);
-  }
-
-  .card-content {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 20px;
-  }
-
-  /* ── Badge ── */
-  .badge {
-    display: inline-block;
-    background: rgba(255,255,255,.18);
-    backdrop-filter: blur(6px);
-    border: 1px solid rgba(255,255,255,.3);
-    color: #fff;
-    font-size: 11px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: .05em;
-    padding: 4px 10px;
-    border-radius: 50px;
-    margin-bottom: 8px;
-  }
-
-  /* ── Featured sidebar item ── */
-  .featured-item {
-    display: flex;
-    gap: 14px;
-    align-items: flex-start;
-    padding: 14px 0;
-    border-bottom: 1px solid #e2e8f0;
-  }
-  .featured-item:last-child { border-bottom: none; }
-  .featured-item img {
-    width: 72px;
-    height: 56px;
-    object-fit: cover;
-    border-radius: 10px;
-    flex-shrink: 0;
-  }
-
-  /* ── Mobile menu ── */
-  #mobile-menu {
-    display: none;
-  }
-  #mobile-menu.open {
-    display: block;
-  }
-
-  /* ── Animations ── */
-  @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(24px); }
-    to   { opacity: 1; transform: translateY(0); }
-  }
-  .fade-up { animation: fadeUp .6s ease both; }
-  .delay-1 { animation-delay: .1s; }
-  .delay-2 { animation-delay: .2s; }
-  .delay-3 { animation-delay: .3s; }
-  .delay-4 { animation-delay: .4s; }
-
-  /* ── Scrollbar thin ── */
-  ::-webkit-scrollbar { width: 6px; height: 6px; }
-  ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 99px; }
+/* Haluskan transisi antar kartu */
+.transition-all {
+  transition-duration: 300ms;
+}
 </style>
