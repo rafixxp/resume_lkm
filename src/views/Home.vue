@@ -21,7 +21,7 @@
     <!-- Team Section -->
     <section id="team" class="py-24">
       <div class="max-w-6xl mx-auto px-6">
-        <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+        <div class="flex flex-col md:flex-row sm:flex-row justify-between items-end mb-16 gap-6">
           <div>
             <h2 class="text-3xl font-bold mb-2">Tim Kami</h2>
             <p class="text-gray-500">Ada beberapa orang di balik proyek website ini.</p>
@@ -29,10 +29,10 @@
           <div class="h-[2px] w-20 bg-black hidden md:block"></div>
         </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           <div v-for="member in team" :key="member.name" class="bg-white p-8 border border-gray-100 rounded-lg hover:shadow-xl transition-shadow text-center">
             <div class="w-30 h-30 overflow-hidden text-white rounded-full mb-6 mx-auto">
-              <img :src="member.image" alt="member image" class="object-fit-cover">
+              <img :src="member.image" alt="member image" class="w-full h-full object-cover">
             </div>
             <h3 class="font-bold text-md mb-1">{{ member.name }}</h3>
             <p class="text-sm text-gray-500">{{ member.role }}</p>
@@ -58,14 +58,14 @@
 const team = [
   { name: 'Muhammad Najmi Ash Shidiq', role: '257006111', image: './najmi.webp' },
   { name: 'Muhammad Dimas Nugraha', role: '2570061110', image: './dimas.webp' },
-  { name: 'Fawwaz Faadhilah Braliana', role: '257006111', image: './dimas.webp' },
+  { name: 'Fawwaz Faadhilah Braliana', role: '257006111', image: './fawwaz.webp' },
   { name: 'Dita Dwi Meilani', role: '257006111', image: './dita.webp' },
   { name: 'Ahmad Faiz Muzaki', role: '257006111', image: './dimas.webp' },
   { name: 'Rafi Ahfa Fauzan', role: '257006111017', image: './ahpa.webp' },
   { name: 'Yudha Arief Permana', role: '257006111', image: './yudha.webp' },
   { name: 'Ihsan Nugraha', role: '257006111', image: './dimas.webp' },
   { name: 'Sahla Jahidatul Mila Al Azizah', role: '257006111', image: './dimas.webp' },
-  { name: 'Muhammad Ilham Rizky', role: '257006111', image: './dimas.webp' },
+  { name: 'Muhammad Ilham Rizky', role: '257006111', image: './ilham.jpeg' },
   { name: 'Marcelino Herlambang', role: '257006111', image: './dimas.webp' },
 ]
 

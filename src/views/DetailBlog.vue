@@ -68,131 +68,131 @@ const materiComponent = computed(() => {
   </div>
 </template>
 
-  <style scoped>
-    :root {
-      --blue: #2563EB;
-      --blue-light: #EFF6FF;
-      --dark: #0f172a;
-      --mid: #475569;
-      --soft: #94a3b8;
-      --bg: #f8fafc;
-      --card-radius: 16px;
-    }
+<style scoped>
+  :root {
+    --blue: #2563EB;
+    --blue-light: #EFF6FF;
+    --dark: #0f172a;
+    --mid: #475569;
+    --soft: #94a3b8;
+    --bg: #f8fafc;
+    --card-radius: 16px;
+  }
 
-    * { box-sizing: border-box; }
+  * { box-sizing: border-box; }
 
-    body {
-      font-family: 'DM Sans', sans-serif;
-      background: var(--bg);
-      color: var(--dark);
-      margin: 0;
-    }
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--dark);
+    margin: 0;
+  }
 
-    h1, h2, h3, h4, .logo-text {
-      font-family: 'Sora', sans-serif;
-    }
+  h1, h2, h3, h4, .logo-text {
+    font-family: 'Sora', sans-serif;
+  }
 
-    /* ── Nav ── */
-    nav {
-      background: #fff;
-      border-bottom: 1px solid #e2e8f0;
-      position: sticky;
-      top: 0;
-      z-index: 50;
-    }
+  /* ── Nav ── */
+  nav {
+    background: #fff;
+    border-bottom: 1px solid #e2e8f0;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
 
-    /* ── Hero bg gradient ── */
-    .hero-section {
-      background: white;
-    }
+  /* ── Hero bg gradient ── */
+  .hero-section {
+    background: white;
+  }
 
-    /* ── Card image overlay ── */
-    .card-img-wrap {
-      position: relative;
-      overflow: hidden;
-      border-radius: var(--card-radius);
-      height: 200px;
-    }
+  /* ── Card image overlay ── */
+  .card-img-wrap {
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--card-radius);
+    height: 200px;
+  }
 
-    .card-img-wrap img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      transition: transform .45s ease;
-    }
-    .card-img-wrap:hover img { transform: scale(1.05); }
+  .card-img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .45s ease;
+  }
+  .card-img-wrap:hover img { transform: scale(1.05); }
 
-    .card-gradient {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(to top, rgba(0,0,0,.72) 0%, rgba(0,0,0,.1) 55%, transparent 100%);
-      border-radius: var(--card-radius);
-    }
+  .card-gradient {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,.72) 0%, rgba(0,0,0,.1) 55%, transparent 100%);
+    border-radius: var(--card-radius);
+  }
 
-    .card-content {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      padding: 16px;
-    }
+  .card-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 16px;
+  }
 
-    /* ── Badge ── */
-    .badge {
-      display: inline-block;
-      background: rgba(255,255,255,.18);
-      backdrop-filter: blur(6px);
-      border: 1px solid rgba(255,255,255,.3);
-      color: #fff;
-      font-size: 11px;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: .05em;
-      padding: 4px 10px;
-      border-radius: 50px;
-      margin-bottom: 8px;
-    }
+  /* ── Badge ── */
+  .badge {
+    display: inline-block;
+    background: rgba(255,255,255,.18);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255,255,255,.3);
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    padding: 4px 10px;
+    border-radius: 50px;
+    margin-bottom: 8px;
+  }
 
-    /* ── Animations ── */
-    @keyframes fadeUp {
-      from { opacity: 0; transform: translateY(24px); }
-      to   { opacity: 1; transform: translateY(0); }
-    }
-    .fade-up { animation: fadeUp .6s ease both; }
-    .delay-1 { animation-delay: .1s; }
-    .delay-2 { animation-delay: .2s; }
-    .delay-3 { animation-delay: .3s; }
-    .delay-4 { animation-delay: .4s; }
+  /* ── Animations ── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .fade-up { animation: fadeUp .6s ease both; }
+  .delay-1 { animation-delay: .1s; }
+  .delay-2 { animation-delay: .2s; }
+  .delay-3 { animation-delay: .3s; }
+  .delay-4 { animation-delay: .4s; }
 
-    /* ── Scrollbar thin ── */
-    ::-webkit-scrollbar { width: 6px; height: 6px; }
-    ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 99px; }
+  /* ── Scrollbar thin ── */
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 99px; }
 
-    /* ── Prose styling ── */
-    .prose {
-      color: var(--dark);
-      max-width: none;
-    }
-    .prose h2, .prose h3 {
-      font-weight: 700;
-      line-height: 1.25;
-    }
-    .prose p {
-      margin-bottom: 1.25rem;
-      line-height: 1.75;
-    }
-    .prose ul {
-      margin-bottom: 1.25rem;
-    }
-    .prose li {
-      margin-bottom: 0.5rem;
-    }
-    .prose a {
-      color: var(--blue);
-      text-decoration: none;
-      font-weight: 500;
-    }
-    .prose a:hover {
-      text-decoration: underline;
-    }
-  </style>
+  /* ── Prose styling ── */
+  .prose {
+    color: var(--dark);
+    max-width: none;
+  }
+  .prose h2, .prose h3 {
+    font-weight: 700;
+    line-height: 1.25;
+  }
+  .prose p {
+    margin-bottom: 1.25rem;
+    line-height: 1.75;
+  }
+  .prose ul {
+    margin-bottom: 1.25rem;
+  }
+  .prose li {
+    margin-bottom: 0.5rem;
+  }
+  .prose a {
+    color: var(--blue);
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .prose a:hover {
+    text-decoration: underline;
+  }
+</style>
