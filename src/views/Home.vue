@@ -57,7 +57,7 @@
 <script setup>
 const team = [
   { name: 'Muhammad Najmi Ash Shidiq', role: '', image: './najmi.webp' },
-  { name: 'Muhammad Dimas Nugraha', role: '0', image: './dimas.webp' },
+  { name: 'Muhammad Dimas Nugraha', role: '', image: './dimas.webp' },
   { name: 'Fawwaz Faadhilah Braliana', role: '', image: './fawwaz.webp' },
   { name: 'Dita Dwi Meilani', role: '', image: './dita.webp' },
   { name: 'Ahmad Faiz Muzaki', role: '', image: './zaki.jpeg' },
