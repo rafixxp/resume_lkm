@@ -5,7 +5,7 @@
     <!-- Untuk mengganti gambarnya, silakan ganti isi dari atribut src nya dengan link gambar dari website -->
     <div class="mb-8">
         <img 
-        src="https://harrisonassessments.id/wp-content/uploads/2023/09/image2-1-1024x678.jpg" 
+        src="https://sdmindonesia.com/analisis-aspek-organisasi-dan-manajemen/" 
         alt="Wanderlust Unleashed: Top Hidden Gems You Must Visit This Year"
         class="w-full h-64 md:h-96 object-cover rounded-2xl"
         />
@@ -25,7 +25,7 @@
 
                 <!-- Tuliskan nama pematerinya disini -->
                 <span class="text-sm">
-                    Ikmal Riza
+                    Fauzan Alvin Mubarok
                 </span>
 
             </div>
@@ -35,7 +35,7 @@
                 </svg>
                 <!-- Tuliskan tanggal pemateriannya disini -->
                 <span class="text-sm">
-                    Sabtu, 30 Maret 2026
+                    Minggu, 3 Mei 2026
                 </span>
             </div>
         </div>
@@ -51,15 +51,79 @@
 
                     <!-- isikan materinya disini, untuk membuat paragraf anda perlu menulis tag <p></p> untuk membuat paragraf baru. -->
                     <p class="text-slate-600 leading-relaxed mb-4">
-                        Ini adalah paragraf dari materi yang dipaparkan oleh a Ikmal Riza
+                        Analisa Organisasi merupakan proses memahami kondisi organisasi untuk menemukan masalah, potensi, dan arah perbaikan.
                     </p>
 
-                    <!-- untuk membuat order list 1,2,3 dst, salin tag ini lalu ganti isinya sesuai dengan materi -->
+                    <p class="text-slate-600 leading-relaxed mb-4">
+                        Tujuan:
+                    </p>
+
                     <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
-                        <li>DILARANG MEMBAWA SENTAJA TAJAM</li>
-                        <li>DILARANG MELAKUKAN INTIMIDASI</li>
-                        <li>DILARANG MEROKOK !</li>
+                        <li>Mengetahui kondisi nyata organisasi</li>
+                        <li>Menjadi dasar perbaikan strategi</li>
+                        <li>Mengidentifikasi akar masalah</li>
+                        <li>Mendukung keputusan yang lebih tepat</li>
                     </ol>
+
+                    <p class="text-slate-600 leading-relaxed mb-4">
+                        Ruang lingkup:
+                    </p>
+
+                    <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
+                        <li>Internal: Struktur, SDM, budaya kerja, dan komunikasi</li>
+                        <li>External: Peluang, tantangan, aturan, dan kebutuhan lingkungan</li>
+                        <li>Hubungan keduanya: Faktor luar memengaruhi organisasi</li>
+                    </ol>
+
+                    <p class="text-slate-600 leading-relaxed mb-4">
+                        Prinsip dasar:
+                    </p>
+
+                    <p class="text-slate-600 leading-relaxed mb-4">
+                        Ilmiah, rasional, objektif, kritis, dan empiris-teoritis.
+                    </p>
+
+                    <p class="text-slate-600 leading-relaxed mb-4">
+                        Metode dan alat organisasi:
+                    </p>
+
+                    <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
+                        <li>Observasi aktivitas, pola komunikasi, dinamika kerja organisasi</li>
+                        <li>Wawancara/diskusi menangkap pengalaman, hambatan, dan kebutuhan</li>
+                        <li>Studi dokumen seperti aturan, program kerja, dan laporan</li>
+                        <li>Klasifikasi temuan menjadi masalah, potensi, dan peluang</li>
+                    </ol>
+
+                    <p class="text-slate-600 leading-relaxed mb-4">
+                        SWOT : Strengths, Weaknesses, Opportunities, Threats
+                    </p>
+
+                    <p class="text-slate-600 leading-relaxed mb-4">
+                        Problem Solving:
+                    </p>
+
+                    <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
+                        <li>Temuan fakta utama</li>
+                        <li>Cari akar masalah</li>
+                        <li>Nilai dampak</li>
+                        <li>Susun alternatif solusi</li>
+                        <li>Tentukan tindak lanjut</li>
+                    </ol>
+
+                    <p class="text-slate-600 leading-relaxed mb-4">
+                        Inti:
+                    </p>
+
+                    <ol type="1" class="list-decimal list-inside text-slate-600 space-y-2 mb-6">
+                        <li>Solusi harus menjawab masalah</li>
+                        <li>Prioritas berdasarkan data dan dampak</li>
+                        <li>keputusan bisa dijalankan oleh organisasi</li>
+                        <li>Evaluasi untuk efektivitas sosial</li>
+                    </ol>
+
+                    <p class="text-slate-600 leading-relaxed mb-4">
+                        Kesimpulan: Analisa organisasi pijakan awal agar organisasi bergerak secara sadar, terarah, dan efektif.
+                    </p>
                 </section>
 
             </article>
